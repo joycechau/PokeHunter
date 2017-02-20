@@ -6,6 +6,11 @@ class Pokedex extends React.Component {
   constructor(props) {
     super(props);
     this.state = { pokemonList };
+    this.onPokeballClicked = this.onPokeballClicked.bind(this);
+  }
+
+  onPokeballClicked() {
+    // Pokedex Logic
   }
 
   renderPokemon(key, pokemon) {
