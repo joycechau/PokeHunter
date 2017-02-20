@@ -5,11 +5,16 @@ class Map extends React.Component {
     super(props);
   }
 
+  componentDidMount() {
+    new google.maps.Map(document.getElementById('map'), {
+      center: new google.maps.LatLng(51.508742,-0.120850),
+      zoom: 5,
+    });
+  }
+
   render() {
     return (
-      <div>
-        Map Component
-      </div>
+      <div id="map" style={{ height: '100%'}}/>
     );
   }
 }
