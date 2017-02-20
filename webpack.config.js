@@ -1,5 +1,5 @@
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var webpack = require('webpack');
+// var webpack = require('webpack');
 
 module.exports = {
   entry: './poke_hunter.js',
@@ -29,11 +29,16 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin({ filename: 'bundle.css', disable: false, allChunks: true }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      }
-    }),
+    // new webpack.DefinePlugin({
+    //   'process.env': {
+    //     NODE_ENV: JSON.stringify('production')
+    //   }
+    // }),
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compress: {
+    //     warnings: false
+    //   }
+    // }),
   ],
   devtool: 'source-maps'
 };

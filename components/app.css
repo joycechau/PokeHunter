@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  border: 1px solid red;
+  position: absolute;
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.pokedex {
+  width: 300px;
+  border: 1px solid green;
+}
+
+.map {
+  flex: 1;
+  border: 1px solid blue;
+}
