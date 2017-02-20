@@ -8,6 +8,12 @@ import styles from './app.css';
 class App extends React.Component {
   constructor(props){
     super(props);
+
+    this.onPokeballClick = this.onPokeballClick.bind(this);
+  }
+
+  onPokeballClick() {
+    this.refs.pokedex.onPokeballClicked();
   }
 
   render() {
@@ -18,10 +24,10 @@ class App extends React.Component {
         </div>
         <div className={styles.content}>
           <div className={styles.pokedex}>
-            <Pokedex />
+            <Pokedex ref="pokedex" />
           </div>
           <div className={styles.map}>
-            <Map />
+            <Map onPokeballClick={this.onPokeballClick} />
           </div>
         </div>
       </div>

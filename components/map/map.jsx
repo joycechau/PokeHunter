@@ -15,7 +15,7 @@ const MIN_LAT = 17.5;
 const MAX_LNG = 294.5;
 const MIN_LNG = 236;
 
-class Map extends React.Component {
+export default class Map extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -55,6 +55,10 @@ class Map extends React.Component {
     marker.addListener('click', () => {
       marker.setMap(null);
       this.addMarker(map);
+
+      if (this.props.onPokeballClick) {
+        this.props.onPokeballClick();
+      }
     });
   }
 
@@ -64,5 +68,3 @@ class Map extends React.Component {
     );
   }
 }
-
-export default Map;
