@@ -5,7 +5,7 @@ import Pokedex from './pokedex/pokedex.jsx';
 import Map from './map/map.jsx';
 import styles from './app.css';
 
-class App extends React.Component {
+export default class App extends React.Component {
   constructor(props){
     super(props);
 
@@ -34,5 +34,3 @@ class App extends React.Component {
     );
   }
 }
-
-export default App;

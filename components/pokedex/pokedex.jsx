@@ -2,7 +2,7 @@ import React from 'react';
 import { pokemonList } from './pokemon_list.js';
 import styles from './pokedex.css';
 
-class Pokedex extends React.Component {
+export default class Pokedex extends React.Component {
   constructor(props) {
     super(props);
     this.state = { pokemonList };
@@ -35,5 +35,3 @@ class Pokedex extends React.Component {
     );
   }
 }
-
-export default Pokedex;
