@@ -15,33 +15,3 @@ div, p, form, label, input {
   background: transparent;
   font-family: 'Muli',serif;
 }
-
-.app, .header,
-.pokedex-and-map,
-.pokedex, .map {
-  text-align: center;
-}
-
-.header {
-  height: 50px;
-  width: 100%;
-  align-items: center;
-  border: 1px solid red;
-  position: absolute;
-}
-
-.pokedex-and-map {
-  padding-top: 50px;
-  display: flex;
-  height: 100vh;
-}
-
-.pokedex {
-  width: 300px;
-  border: 1px solid green;
-}
-
-.map {
-  flex: 1;
-  border: 1px solid blue;
-}
