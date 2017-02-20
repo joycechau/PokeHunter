@@ -1,5 +1,6 @@
 import React from 'react';
-import pokemonList from './pokemon_list.js';
+import { pokemonList } from './pokemon_list.js';
+import styles from './pokedex.css';
 
 class Pokedex extends React.Component {
   constructor(props) {
@@ -7,10 +8,24 @@ class Pokedex extends React.Component {
     this.state = { pokemonList };
   }
 
+  renderPokemon(key, pokemon) {
+    return (
+      <div key={key} className={styles.item}>
+        { pokemon.id }
+        <img src={pokemon.found ? pokemon.found_url : pokemon.hidden_url} className={styles.img} />
+        { pokemon.name }
+      </div>
+    );
+  }
+
   render() {
+    const { pokemonList } = this.state;
     return (
       <div>
-        Pokedex Component
+        { pokemonList.map((pokemon, i) => {
+            return this.renderPokemon(i, pokemon);
+          })
+        }
       </div>
     );
   }
