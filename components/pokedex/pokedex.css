@@ -1,0 +1,11 @@
+.item {
+  line-height: 30px;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.img {
+  vertical-align: middle;
+  width: 40px;
+  margin: 0 8px;
+}
