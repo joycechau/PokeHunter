@@ -1,0 +1,10 @@
+.map {
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  margin: auto;
+  border: 3px solid #555;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px #555;
+}
