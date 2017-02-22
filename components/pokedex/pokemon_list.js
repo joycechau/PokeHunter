@@ -185,7 +185,7 @@ export const pokemonList = [
   },
   {
     id: '024',
-    name: "	Arbok",
+    name: "Arbok",
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665535/Arbok.png",
@@ -401,403 +401,403 @@ export const pokemonList = [
   },
   {
     id: '051',
-    name: "",
+    name: "Dugtrio",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668641/Dugtrio.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668672/Dugtrio_hidden.png"
   },
   {
     id: '052',
-    name: "",
+    name: "Meowth",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668710/Meowth.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668739/Meowth_hidden.png"
   },
   {
     id: '053',
-    name: "",
+    name: "Persian",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668790/Persian.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668845/Persian_hidden.png"
   },
   {
     id: '054',
-    name: "",
+    name: "Psyduck",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668870/Psyduck.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668900/Psyduck_hidden.png"
   },
   {
     id: '055',
-    name: "",
+    name: "Golduck",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668928/Golduck.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668957/Golduck_hidden.png"
   },
   {
     id: '056',
-    name: "",
+    name: "Mankey",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668985/Mankey.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669013/Mankey_hidden.png"
   },
   {
     id: '057',
-    name: "",
+    name: "Primeape",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669160/Primeape.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669189/Primeape_hidden.png"
   },
   {
     id: '058',
-    name: "",
+    name: "Growlithe",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669218/Growlithe.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669255/Growlithe_hidden.png"
   },
   {
     id: '059',
-    name: "",
+    name: "Arcanine",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669282/Arcanine.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669310/Arcanine_hidden.png"
   },
   {
     id: '060',
-    name: "",
+    name: "Poliwag",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669347/Poliwag.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669378/Poliwag_hidden.png"
   },
   {
     id: '061',
-    name: "",
+    name: "Poliwhirl",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669420/Poliwhirl.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669461/Poliwhirl_hidden.png"
   },
   {
     id: '062',
-    name: "",
+    name: "Poliwrath",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669494/Poliwrath.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669521/Poliwrath_hidden.png"
   },
   {
     id: '063',
-    name: "",
+    name: "Abra",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669545/Abra.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669584/Abra_hidden.png"
   },
   {
     id: '064',
-    name: "",
+    name: "Kadabra",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669629/Kadabra.png",
+    hidden_url: "http://res.cloudinary.com/joycechau/image/upload/v1487669654/Kadabra_hidden.png"
   },
   {
     id: '065',
-    name: "",
+    name: "Alakazam",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669676/Alakazam.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669704/Alakazam_hidden.png"
   },
   {
     id: '066',
-    name: "",
+    name: "Machop",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669736/Machop.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669760/Machop_hidden.png"
   },
   {
     id: '067',
-    name: "",
+    name: "Machoke",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669880/Machoke.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669918/Machoke_hidden.png"
   },
   {
     id: '068',
-    name: "",
+    name: "Machamp",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669943/Machamp.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669974/Machamp_hidden.png"
   },
   {
     id: '069',
-    name: "",
+    name: "Bellsprout",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670007/Bellsprout.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670037/Bellsprout_hidden.png"
   },
   {
     id: '070',
-    name: "",
+    name: "Weepinbell",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670066/Weepinbell.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670094/Weepinbell_hidden.png"
   },
   {
     id: '071',
-    name: "",
+    name: "Victreebel",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670116/Victreebel.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670146/Victreebel_hidden.png"
   },
   {
     id: '072',
-    name: "",
+    name: "Tentacool",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670174/Tentacool.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670203/Tentacool_hidden.png"
   },
   {
     id: '073',
-    name: "",
+    name: "Tentacruel",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670231/Tentacruel.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670283/Tentacruel_hidden.png"
   },
   {
     id: '074',
-    name: "",
+    name: "Geodude",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670311/Geodude.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670339/Geodude_hidden.png"
   },
   {
     id: '075',
-    name: "",
+    name: "Graveler",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670362/Graveler.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670391/Graveler_hidden.png"
   },
   {
     id: '076',
-    name: "",
+    name: "Golem",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670417/Golem.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670451/Golem_hidden.png"
   },
   {
     id: '077',
-    name: "",
+    name: "Ponyta",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670494/Ponyta.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670526/Ponyta_hidden.png"
   },
   {
     id: '078',
-    name: "",
+    name: "Rapidash",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670552/Rapidash.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670587/Rapidash_hidden.png"
   },
   {
     id: '079',
-    name: "",
+    name: "Slowpoke",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670612/Slowpoke.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670643/Slowpoke_hidden.png"
   },
   {
     id: '080',
-    name: "",
+    name: "Slowbro",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670668/Slowbro.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670701/Slowbro_hidden.png"
   },
   {
     id: '081',
-    name: "",
+    name: "Magnemite",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739220/Magnemite.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739261/Magnemite_hidden.png"
   },
   {
     id: '082',
-    name: "",
+    name: "Magneton",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739288/Magneton.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739338/Magneton_hidden.png"
   },
   {
     id: '083',
-    name: "",
+    name: "Farfetch'd",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739479/Farfetch'd.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739518/Farfetch'd_hidden.png"
   },
   {
     id: '084',
-    name: "",
+    name: "Doduo",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739576/Doduo.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739699/Doduo_hidden.png"
   },
   {
     id: '085',
-    name: "",
+    name: "Dodrio",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739725/Dodrio.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739761/Dodrio_hidden.png"
   },
   {
     id: '086',
-    name: "",
+    name: "Seel",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739785/Seel.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739815/Seel_hidden.png"
   },
   {
     id: '087',
-    name: "",
+    name: "Dewgong",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739846/Dewgong.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739873/Dewgong_hidden.png"
   },
   {
     id: '088',
-    name: "",
+    name: "Grimer",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739900/Grimer.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739929/Grimer_hidden.png"
   },
   {
     id: '089',
-    name: "",
+    name: "Muk",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739953/Muk.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739980/Muk_hidden.png"
   },
   {
     id: '090',
-    name: "",
+    name: "Shellder",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740007/Shellder.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740037/Shellder_hidden.png"
   },
   {
     id: '091',
-    name: "",
+    name: "Cloyster",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740061/Cloyster.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740096/Cloyster_hidden.png"
   },
   {
     id: '092',
-    name: "",
+    name: "Gastly",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740124/Gastly.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740153/Gastly_hidden.png"
   },
   {
     id: '093',
-    name: "",
+    name: "Haunter",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740181/Haunter.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740212/Haunter_hidden.png"
   },
   {
     id: '094',
-    name: "",
+    name: "Gengar",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740238/Gengar.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740269/Gengar_hidden.png"
   },
   {
     id: '095',
-    name: "",
+    name: "Onix",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740294/Onix.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740322/Onix_hidden.png"
   },
   {
     id: '096',
-    name: "",
+    name: "Drowzee",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740370/Drowzee.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740399/Drowzee_hidden.png"
   },
   {
     id: '097',
-    name: "",
+    name: "Hypno",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740423/Hypno.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740451/Hypno_hidden.png"
   },
   {
     id: '098',
-    name: "",
+    name: "Krabby",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740473/Krabby.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740500/Krabby_hidden.png"
   },
   {
     id: '099',
-    name: "",
+    name: "Kingler",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753794/Kingler.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753823/Kingler_hidden.png"
   },
   {
     id: '100',
-    name: "",
+    name: "Voltorb",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753853/Voltorb.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753882/Voltorb_hidden.png"
   },
   {
     id: '101',
