@@ -4,8 +4,8 @@ export const pokemonList = [
     name: "Bulbasaur",
     hidden_name: "???",
     found: false,
-    found_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_450/v1487563576/bulbasaur.png",
-    hidden_url: "http://res.cloudinary.com/joycechau/image/upload/c_scale,h_450/v1487563398/bulbasaur_hidden.png"
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487757036/Bulbasaur.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_450/v1487563398/bulbasaur_hidden.png"
   },
   {
     id: '002',
@@ -117,7 +117,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664851/Beedrill.png",
-    hidden_url: "http://res.cloudinary.com/joycechau/image/upload/v1487664888/Beedrill_hidden.png"
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664888/Beedrill_hidden.png"
   },
   {
     id: '016',
@@ -509,7 +509,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669629/Kadabra.png",
-    hidden_url: "http://res.cloudinary.com/joycechau/image/upload/v1487669654/Kadabra_hidden.png"
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669654/Kadabra_hidden.png"
   },
   {
     id: '065',
@@ -801,402 +801,402 @@ export const pokemonList = [
   },
   {
     id: '101',
-    name: "",
+    name: "Electrode",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753997/Electrode.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754027/Electrode_hidden.png"
   },
   {
     id: '102',
-    name: "",
+    name: "Exeggcute",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754056/Exeggcute.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754082/Exeggcute_hidden.png"
   },
   {
     id: '103',
-    name: "",
+    name: "Exeggutor",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754110/Exeggutor.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754143/Exeggutor_hidden.png"
   },
   {
     id: '104',
-    name: "",
+    name: "Cubone",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754168/Cubone.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754197/Cubone_hidden.png"
   },
   {
     id: '105',
-    name: "",
+    name: "Marowak",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754221/Marowak.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754249/Marowak_hidden.png"
   },
   {
     id: '106',
-    name: "",
+    name: "Hitmonlee",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754275/Hitmonlee.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754302/Hitmonlee_hidden.png"
   },
   {
     id: '107',
-    name: "",
+    name: "Hitmonchan",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754324/Hitmonchan.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754349/Hitmonchan_hidden.png"
   },
   {
     id: '108',
-    name: "",
+    name: "Lickitung",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754373/Lickitung.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754399/Lickitung_hidden.png"
   },
   {
     id: '109',
-    name: "",
+    name: "Koffing",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754423/Koffing.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754449/Koffing_hidden.png"
   },
   {
     id: '110',
-    name: "",
+    name: "Weezing",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754475/Weezing.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754503/Weezing_hidden.png"
   },
   {
     id: '111',
-    name: "",
+    name: "Rhyhorn",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754528/Rhyhorn.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754554/Rhyhorn_hidden.png"
   },
   {
     id: '112',
-    name: "",
+    name: "Rhydon",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754577/Rhydon.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754604/Rhydon_hidden.png"
   },
   {
     id: '113',
-    name: "",
+    name: "Chansey",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754628/Chansey.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754655/Chansey_hidden.png"
   },
   {
     id: '114',
-    name: "",
+    name: "Tangela",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754678/Tangela.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754713/Tangela_hidden.png"
   },
   {
     id: '115',
-    name: "",
+    name: "Kangaskhan",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754737/Kangaskhan.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754764/Kangaskhan_hidden.png"
   },
   {
     id: '116',
-    name: "",
+    name: "Horsea",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754790/Horsea.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754818/Horsea_hidden.png"
   },
   {
     id: '117',
-    name: "",
+    name: "Seadra",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754840/Seadra.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754864/Seadra_hidden.png"
   },
   {
     id: '118',
-    name: "",
+    name: "Goldeen",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754891/Goldeen.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754917/Goldeen_hidden.png"
   },
   {
     id: '119',
-    name: "",
+    name: "Seaking",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754941/Seaking.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754967/Seaking_hidden.png"
   },
   {
     id: '120',
-    name: "",
+    name: "Staryu",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754991/Staryu.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755018/Staryu_hidden.png"
   },
   {
     id: '121',
-    name: "",
+    name: "Starmie",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755049/Starmie.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755086/Starmie_hidden.png"
   },
   {
     id: '122',
-    name: "",
+    name: "Mr. Mime",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755111/Mr. Mime.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755148/Mr. Mime_hidden.png"
   },
   {
     id: '123',
-    name: "",
+    name: "Scyther",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755185/Scyther.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755210/Scyther_hidden.png"
   },
   {
     id: '124',
-    name: "",
+    name: "Jynx",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755238/Jynx.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755283/Jynx_hidden.png"
   },
   {
     id: '125',
-    name: "",
+    name: "Electabuzz",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755305/Electabuzz.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755333/Electabuzz_hidden.png"
   },
   {
     id: '126',
-    name: "",
+    name: "Magmar",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755364/Magmar.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755390/Magmar_hidden.png"
   },
   {
     id: '127',
-    name: "",
+    name: "Pinsir",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755413/Pinsir.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755438/Pinsir_hidden.png"
   },
   {
     id: '128',
-    name: "",
+    name: "Tauros",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755459/Tauros.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755485/Tauros_hidden.png"
   },
   {
     id: '129',
-    name: "",
+    name: "Magikarp",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755508/Magikarp.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755535/Magikarp_hidden.png"
   },
   {
     id: '130',
-    name: "",
+    name: "Gyarados",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755570/Gyarados.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755602/Gyarados_hidden.png"
   },
   {
     id: '131',
-    name: "",
+    name: "Lapras",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755624/Lapras.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755649/Lapras_hidden.png"
   },
   {
     id: '132',
-    name: "",
+    name: "Ditto",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755670/Ditto.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755693/Ditto_hidden.png"
   },
   {
     id: '133',
-    name: "",
+    name: "Eevee",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755738/Eevee.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755763/Eevee_hidden.png"
   },
   {
     id: '134',
-    name: "",
+    name: "Vaporeon",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755785/Vaporeon.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755816/Vaporeon_hidden.png"
   },
   {
     id: '135',
-    name: "",
+    name: "Jolteon",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755836/Jolteon.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755861/Jolteon_hidden.png"
   },
   {
     id: '136',
-    name: "",
+    name: "Flareon",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755883/Flareon.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755910/Flareon_hidden.png"
   },
   {
     id: '137',
-    name: "",
+    name: "Porygon",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755930/Porygon.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755957/Porygon_hidden.png"
   },
   {
     id: '138',
-    name: "",
+    name: "Omanyte",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755980/Omanyte.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756008/Omanyte_hidden.png"
   },
   {
     id: '139',
-    name: "",
+    name: "Omastar",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756031/Omastar.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756057/Omastar_hidden.png"
   },
   {
     id: '140',
-    name: "",
+    name: "Kabuto",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756081/Kabuto.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756105/Kabuto_hidden.png"
   },
   {
     id: '141',
-    name: "",
+    name: "Kabutops",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756126/Kabutops.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756156/Kabutops_hidden.png"
   },
   {
     id: '142',
-    name: "",
+    name: "Aerodactyl",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756181/Aerodactyl.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756203/Aerodactyl_hidden.png"
   },
   {
     id: '143',
-    name: "",
+    name: "Snorlax",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756223/Snorlax.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756246/Snorlax_hidden.png"
   },
   {
     id: '144',
-    name: "",
+    name: "Articuno",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756267/Articuno.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756291/Articuno_hidden.png"
   },
   {
     id: '145',
-    name: "",
+    name: "Zapdos",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756312/Zapdos.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756335/Zapdos_hidden.png"
   },
   {
     id: '146',
-    name: "",
+    name: "Moltres",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756358/Moltres.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756382/Moltres_hidden.png"
   },
   {
     id: '147',
-    name: "",
+    name: "Dratini",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756404/Dratini.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756431/Dratini_hidden.png"
   },
   {
     id: '148',
-    name: "",
+    name: "Dragonair",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756456/Dragonair.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756486/Dragonair_hidden.png"
   },
   {
     id: '149',
-    name: "",
+    name: "Dragonite",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756506/Dragonite.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756545/Dragonite_hidden.png"
   },
   {
     id: '150',
-    name: "",
+    name: "Mewtwo",
     hidden_name: "???",
     found: false,
-    found_url: "",
-    hidden_url: ""
+    found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756570/Mewtwo.png",
+    hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756597/Mewtwo_hidden.png"
   }
 ];
