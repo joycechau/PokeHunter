@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Header extends React.Component {
+export default class Header extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -8,10 +8,8 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        Header Component
+        Catch All The Pokemon!
       </div>
     );
   }
 }
-
-export default Header;
