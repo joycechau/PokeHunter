@@ -18,7 +18,7 @@ export default class Pokedex extends React.Component {
       <div key={key} className={styles.item}>
         { pokemon.id }
         <img src={pokemon.found ? pokemon.found_url : pokemon.hidden_url} className={styles.img} />
-        { pokemon.name }
+        { pokemon.found ? pokemon.name : pokemon.hidden_name }
       </div>
     );
   }
