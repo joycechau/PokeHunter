@@ -37,7 +37,7 @@ export default class Map extends React.Component {
       scrollwheel: false,
     });
 
-    for (var i = 0; i < 30; i++) {
+    for (let i = 0; i < 30; i++) {
       this.addMarker(map);
     }
   }
