@@ -11,6 +11,7 @@ export default class Pokemon extends React.Component {
   render() {
     return (
       <div>
+        You caught { }
       </div>
     );
   }
