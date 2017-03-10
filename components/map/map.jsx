@@ -23,44 +23,62 @@ export default class Map extends React.Component {
   componentDidMount() {
     const map = new google.maps.Map(document.getElementById('map'), {
       zoom: 4,
-      maxZoom: 4,
       minZoom: 4,
       center: {lat: 35, lng: -95},
-      zoomControl: false,
+      zoomControl: true,
       mapTypeControl: false,
       scaleControl: false,
       streetViewControl: false,
       rotateControl: false,
       fullscreenControl: false,
-      panControl: false,
+      panControl: true,
       draggable: true,
-      scrollwheel: false,
+      scrollwheel: true,
     });
 
     for (let i = 0; i < 1000; i++) {
-      this.addMarker(map);
+      this.addPokeballMarker(map);
     }
   }
 
-  addMarker(map) {
+  addPokeballMarker(map) {
     const lat = Math.random() * (MAX_LAT - MIN_LAT) + MIN_LAT;
     const lng = Math.random() * (MAX_LNG - MIN_LNG) + MIN_LNG;
 
-    const marker = new google.maps.Marker({
+    const pokeballMarker = new google.maps.Marker({
       position: {lat, lng},
       icon: POKE_MARKERS[Math.floor(Math.random() * POKE_MARKERS.length)],
       map: map
     });
 
-    marker.addListener('click', () => {
-      marker.setMap(null);
-      this.addMarker(map);
+    pokeballMarker.addListener('click', () => {
+      pokeballMarker.setMap(null);
+      this.addPokeballMarker(map);
+
+      const markerLat = pokeballMarker.getPosition().lat();
+      const markerLng = pokeballMarker.getPosition().lng();
+
+      map.panTo({lat: markerLat, lng: markerLng});
+      map.setZoom(10);
+
+      this.addPokemonMarker(map, markerLat, markerLng)
 
       if (this.props.onPokeballClick) {
         this.props.onPokeballClick();
       }
     });
 
+  }
+
+  addPokemonMarker(map, lat, lng) {
+    const pokemonMarker = new google.maps.Marker({
+      position: map.getCenter(),
+      icon: POKE_MARKERS[Math.floor(Math.random() * POKE_MARKERS.length)],
+      map: map
+    });
+    console.log(map.getBounds());
+    console.log(map.getBounds());
+    console.log(map.getBounds());
   }
 
   render() {
