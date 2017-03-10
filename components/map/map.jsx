@@ -10,10 +10,10 @@ const POKE_MARKERS = [
   'https://res.cloudinary.com/joycechau/image/upload/v1487572666/premierball.png'
 ];
 
-const MAX_LAT = 49.5;
-const MIN_LAT = 17.5;
-const MAX_LNG = 294.5;
-const MIN_LNG = 236;
+const MAX_LAT = 85;
+const MIN_LAT = -85;
+const MAX_LNG = 180;
+const MIN_LNG = -180;
 
 export default class Map extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ export default class Map extends React.Component {
       zoom: 4,
       maxZoom: 4,
       minZoom: 4,
-      center: {lat: 35, lng: 265},
+      center: {lat: 35, lng: -95},
       zoomControl: false,
       mapTypeControl: false,
       scaleControl: false,
@@ -37,7 +37,7 @@ export default class Map extends React.Component {
       scrollwheel: false,
     });
 
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < 1000; i++) {
       this.addMarker(map);
     }
   }
@@ -60,6 +60,7 @@ export default class Map extends React.Component {
         this.props.onPokeballClick();
       }
     });
+
   }
 
   render() {
