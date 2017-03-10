@@ -33,7 +33,7 @@ export default class Map extends React.Component {
       rotateControl: false,
       fullscreenControl: false,
       panControl: false,
-      draggable: false,
+      draggable: true,
       scrollwheel: false,
     });
 
