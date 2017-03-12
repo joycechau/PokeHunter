@@ -5,6 +5,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487757036/Bulbasaur.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487757036/Bulbasaur.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_450/v1487563398/bulbasaur_hidden.png"
   },
   {
@@ -13,6 +14,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487565400/ivysaur.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487565400/ivysaur.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_450/v1487565465/ivysaur_hidden.png"
   },
   {
@@ -21,6 +23,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487572918/venusaur.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487572918/venusaur.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487572752/venusaur_hidden.png"
   },
   {
@@ -29,6 +32,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663339/charmander.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487663339/charmander.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663392/Charmander_hidden.png"
   },
   {
@@ -37,6 +41,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663465/Charmeleon.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487663465/Charmeleon.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663526/Charmeleon_hidden.png"
   },
   {
@@ -45,6 +50,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663570/Charizard.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487663570/Charizard.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663614/Charizard_hidden.png"
   },
   {
@@ -53,6 +59,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663921/Squirtle.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487663921/Squirtle.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487663992/Squirtle_hidden.png"
   },
   {
@@ -61,6 +68,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664030/Wartortle.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664030/Wartortle.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664079/Wartortle_hidden.png"
   },
   {
@@ -69,6 +77,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664116/Blastoise.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664116/Blastoise.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664159/Blastoise_hidden.png"
   },
   {
@@ -77,6 +86,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664221/Caterpie.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664221/Caterpie.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664277/Caterpie_hidden.png"
   },
   {
@@ -85,6 +95,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664319/Metapod.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664319/Metapod.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664491/Metapod_hidden.png"
   },
   {
@@ -93,6 +104,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664546/Butterfree.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664546/Butterfree.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664587/Butterfree_hidden.png"
   },
   {
@@ -101,6 +113,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664621/Weedle.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664621/Weedle.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664664/Weedle_hidden.png"
   },
   {
@@ -109,6 +122,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664774/Kakuna.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664774/Kakuna.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664809/Kakuna_hidden.png"
   },
   {
@@ -117,6 +131,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664851/Beedrill.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664851/Beedrill.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664888/Beedrill_hidden.png"
   },
   {
@@ -125,6 +140,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664919/Pidgey.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664919/Pidgey.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664952/Pidgey_hidden.png"
   },
   {
@@ -133,6 +149,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487664978/Pidgeotto.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487664978/Pidgeotto.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665014/Pidgeotto_hidden.png"
   },
   {
@@ -141,6 +158,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665046/Pidgeot.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665046/Pidgeot.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665089/Pidgeot_hidden.png"
   },
   {
@@ -149,6 +167,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665130/Rattata.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665130/Rattata.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665174/Rattata_hidden.png"
   },
   {
@@ -157,6 +176,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665255/Raticate.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665255/Raticate.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665290/Raticate_hidden.png"
   },
   {
@@ -165,6 +185,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665320/Spearow.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665320/Spearow.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665350/Spearow_hidden.png"
   },
   {
@@ -173,6 +194,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665399/Fearow.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665399/Fearow.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665434/Fearow_hidden.png"
   },
   {
@@ -181,6 +203,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665474/Ekans.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665474/Ekans.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665505/Ekans_hidden.png"
   },
   {
@@ -189,6 +212,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665535/Arbok.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665535/Arbok.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665575/Arbok_hidden.png"
   },
   {
@@ -197,6 +221,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665622/Pikachu.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665622/Pikachu.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665653/Pikachu_hidden.png"
   },
   {
@@ -205,6 +230,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665677/Raichu.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665677/Raichu.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665709/Raichu_hidden.png"
   },
   {
@@ -213,6 +239,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665789/Sandshrew.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665789/Sandshrew.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665831/Sandshrew_hidden.png"
   },
   {
@@ -221,6 +248,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487665968/Sandslash.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487665968/Sandslash.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666001/Sandslash_hidden.png"
   },
   {
@@ -229,6 +257,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666055/Nidoran♀.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666055/Nidoran♀.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666098/Nidoran♀_hidden.png"
   },
   {
@@ -237,6 +266,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666137/Nidorina.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666137/Nidorina.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666167/Nidorina_hidden.png"
   },
   {
@@ -245,6 +275,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666192/Nidoqueen.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666192/Nidoqueen.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666226/Nidoqueen_hidden.png"
   },
   {
@@ -253,6 +284,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666259/Nidoran♂.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666259/Nidoran♂.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666309/Nidoran♂_hidden.png"
   },
   {
@@ -261,6 +293,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666338/Nidorino.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666338/Nidorino.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666370/Nidorino_hidden.png"
   },
   {
@@ -269,6 +302,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666433/Nidoking.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666433/Nidoking.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666464/Nidoking_hidden.png"
   },
   {
@@ -277,6 +311,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666503/Clefairy.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666503/Clefairy.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666532/Clefairy_hidden.png"
   },
   {
@@ -285,6 +320,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666564/Clefable.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666564/Clefable.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666595/Clefable_hidden.png"
   },
   {
@@ -293,6 +329,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666624/Vulpix.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666624/Vulpix.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666656/Vulpix_hidden.png"
   },
   {
@@ -301,6 +338,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666689/Ninetales.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666689/Ninetales.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666718/Ninetales_hidden.png"
   },
   {
@@ -309,6 +347,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666746/Jigglypuff.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666746/Jigglypuff.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666774/Jigglypuff_hidden.png"
   },
   {
@@ -317,6 +356,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666807/Wigglytuff.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666807/Wigglytuff.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666838/Wigglytuff_hidden.png"
   },
   {
@@ -325,6 +365,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666864/Zubat.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666864/Zubat.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666911/Zubat_hidden.png"
   },
   {
@@ -333,6 +374,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666939/Golbat.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666939/Golbat.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666964/Golbat_hidden.png"
   },
   {
@@ -341,6 +383,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487666988/Oddish.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487666988/Oddish.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487667021/Oddish_hidden.png"
   },
   {
@@ -349,6 +392,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668085/Gloom.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668085/Gloom.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668112/Gloom_hidden.png"
   },
   {
@@ -357,6 +401,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668140/Vileplume.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668140/Vileplume.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668172/Vileplume_hidden.png"
   },
   {
@@ -365,6 +410,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668203/Paras.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668203/Paras.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668234/Paras_hidden.png"
   },
   {
@@ -373,6 +419,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668264/Parasect.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668264/Parasect.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668290/Parasect_hidden.png"
   },
   {
@@ -381,6 +428,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668326/Venonat.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668326/Venonat.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668364/Venonat_hidden.png"
   },
   {
@@ -389,6 +437,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668389/Venomoth.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668389/Venomoth.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668473/Venomoth_hidden.png"
   },
   {
@@ -397,6 +446,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668503/Diglett.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668503/Diglett.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668532/Diglett_hidden.png"
   },
   {
@@ -405,6 +455,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668641/Dugtrio.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668641/Dugtrio.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668672/Dugtrio_hidden.png"
   },
   {
@@ -413,6 +464,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668710/Meowth.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668710/Meowth.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668739/Meowth_hidden.png"
   },
   {
@@ -421,6 +473,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668790/Persian.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668790/Persian.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668845/Persian_hidden.png"
   },
   {
@@ -429,6 +482,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668870/Psyduck.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668870/Psyduck.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668900/Psyduck_hidden.png"
   },
   {
@@ -437,6 +491,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668928/Golduck.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668928/Golduck.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668957/Golduck_hidden.png"
   },
   {
@@ -445,6 +500,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487668985/Mankey.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487668985/Mankey.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669013/Mankey_hidden.png"
   },
   {
@@ -453,6 +509,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669160/Primeape.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669160/Primeape.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669189/Primeape_hidden.png"
   },
   {
@@ -461,6 +518,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669218/Growlithe.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669218/Growlithe.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669255/Growlithe_hidden.png"
   },
   {
@@ -469,6 +527,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669282/Arcanine.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669282/Arcanine.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669310/Arcanine_hidden.png"
   },
   {
@@ -477,6 +536,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669347/Poliwag.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669347/Poliwag.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669378/Poliwag_hidden.png"
   },
   {
@@ -485,6 +545,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669420/Poliwhirl.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669420/Poliwhirl.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669461/Poliwhirl_hidden.png"
   },
   {
@@ -493,6 +554,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669494/Poliwrath.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669494/Poliwrath.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669521/Poliwrath_hidden.png"
   },
   {
@@ -501,6 +563,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669545/Abra.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669545/Abra.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669584/Abra_hidden.png"
   },
   {
@@ -509,6 +572,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669629/Kadabra.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669629/Kadabra.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669654/Kadabra_hidden.png"
   },
   {
@@ -517,6 +581,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669676/Alakazam.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669676/Alakazam.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669704/Alakazam_hidden.png"
   },
   {
@@ -525,6 +590,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669736/Machop.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669736/Machop.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669760/Machop_hidden.png"
   },
   {
@@ -533,6 +599,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669880/Machoke.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669880/Machoke.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669918/Machoke_hidden.png"
   },
   {
@@ -541,6 +608,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669943/Machamp.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487669943/Machamp.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487669974/Machamp_hidden.png"
   },
   {
@@ -549,6 +617,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670007/Bellsprout.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670007/Bellsprout.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670037/Bellsprout_hidden.png"
   },
   {
@@ -557,6 +626,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670066/Weepinbell.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670066/Weepinbell.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670094/Weepinbell_hidden.png"
   },
   {
@@ -565,6 +635,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670116/Victreebel.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670116/Victreebel.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670146/Victreebel_hidden.png"
   },
   {
@@ -573,6 +644,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670174/Tentacool.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670174/Tentacool.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670203/Tentacool_hidden.png"
   },
   {
@@ -581,6 +653,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670231/Tentacruel.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670231/Tentacruel.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670283/Tentacruel_hidden.png"
   },
   {
@@ -589,6 +662,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670311/Geodude.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670311/Geodude.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670339/Geodude_hidden.png"
   },
   {
@@ -597,6 +671,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670362/Graveler.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670362/Graveler.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670391/Graveler_hidden.png"
   },
   {
@@ -605,6 +680,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670417/Golem.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670417/Golem.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670451/Golem_hidden.png"
   },
   {
@@ -613,6 +689,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670494/Ponyta.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670494/Ponyta.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670526/Ponyta_hidden.png"
   },
   {
@@ -621,6 +698,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670552/Rapidash.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670552/Rapidash.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670587/Rapidash_hidden.png"
   },
   {
@@ -629,6 +707,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670612/Slowpoke.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670612/Slowpoke.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670643/Slowpoke_hidden.png"
   },
   {
@@ -637,6 +716,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670668/Slowbro.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487670668/Slowbro.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487670701/Slowbro_hidden.png"
   },
   {
@@ -645,6 +725,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739220/Magnemite.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739220/Magnemite.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739261/Magnemite_hidden.png"
   },
   {
@@ -653,6 +734,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739288/Magneton.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739288/Magneton.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739338/Magneton_hidden.png"
   },
   {
@@ -661,6 +743,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739479/Farfetch'd.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739479/Farfetch'd.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739518/Farfetch'd_hidden.png"
   },
   {
@@ -669,6 +752,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739576/Doduo.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739576/Doduo.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739699/Doduo_hidden.png"
   },
   {
@@ -677,6 +761,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739725/Dodrio.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739725/Dodrio.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739761/Dodrio_hidden.png"
   },
   {
@@ -685,6 +770,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739785/Seel.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739785/Seel.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739815/Seel_hidden.png"
   },
   {
@@ -693,6 +779,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739846/Dewgong.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739846/Dewgong.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739873/Dewgong_hidden.png"
   },
   {
@@ -701,6 +788,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739900/Grimer.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739900/Grimer.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739929/Grimer_hidden.png"
   },
   {
@@ -709,6 +797,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739953/Muk.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487739953/Muk.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487739980/Muk_hidden.png"
   },
   {
@@ -717,6 +806,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740007/Shellder.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740007/Shellder.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740037/Shellder_hidden.png"
   },
   {
@@ -725,6 +815,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740061/Cloyster.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740061/Cloyster.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740096/Cloyster_hidden.png"
   },
   {
@@ -733,6 +824,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740124/Gastly.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740124/Gastly.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740153/Gastly_hidden.png"
   },
   {
@@ -741,6 +833,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740181/Haunter.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740181/Haunter.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740212/Haunter_hidden.png"
   },
   {
@@ -749,6 +842,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740238/Gengar.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740238/Gengar.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740269/Gengar_hidden.png"
   },
   {
@@ -757,6 +851,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740294/Onix.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740294/Onix.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740322/Onix_hidden.png"
   },
   {
@@ -765,6 +860,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740370/Drowzee.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740370/Drowzee.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740399/Drowzee_hidden.png"
   },
   {
@@ -773,6 +869,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740423/Hypno.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740423/Hypno.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740451/Hypno_hidden.png"
   },
   {
@@ -781,6 +878,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740473/Krabby.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487740473/Krabby.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487740500/Krabby_hidden.png"
   },
   {
@@ -789,6 +887,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753794/Kingler.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487753794/Kingler.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753823/Kingler_hidden.png"
   },
   {
@@ -797,6 +896,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753853/Voltorb.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487753853/Voltorb.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753882/Voltorb_hidden.png"
   },
   {
@@ -805,6 +905,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487753997/Electrode.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487753997/Electrode.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754027/Electrode_hidden.png"
   },
   {
@@ -813,6 +914,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754056/Exeggcute.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754056/Exeggcute.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754082/Exeggcute_hidden.png"
   },
   {
@@ -821,6 +923,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754110/Exeggutor.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754110/Exeggutor.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754143/Exeggutor_hidden.png"
   },
   {
@@ -829,6 +932,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754168/Cubone.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754168/Cubone.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754197/Cubone_hidden.png"
   },
   {
@@ -837,6 +941,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754221/Marowak.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754221/Marowak.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754249/Marowak_hidden.png"
   },
   {
@@ -845,6 +950,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754275/Hitmonlee.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754275/Hitmonlee.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754302/Hitmonlee_hidden.png"
   },
   {
@@ -853,6 +959,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754324/Hitmonchan.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754324/Hitmonchan.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754349/Hitmonchan_hidden.png"
   },
   {
@@ -861,6 +968,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754373/Lickitung.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754373/Lickitung.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754399/Lickitung_hidden.png"
   },
   {
@@ -869,6 +977,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754423/Koffing.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754423/Koffing.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754449/Koffing_hidden.png"
   },
   {
@@ -877,6 +986,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754475/Weezing.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754475/Weezing.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754503/Weezing_hidden.png"
   },
   {
@@ -885,6 +995,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754528/Rhyhorn.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754528/Rhyhorn.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754554/Rhyhorn_hidden.png"
   },
   {
@@ -893,6 +1004,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754577/Rhydon.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754577/Rhydon.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754604/Rhydon_hidden.png"
   },
   {
@@ -901,6 +1013,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754628/Chansey.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754628/Chansey.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754655/Chansey_hidden.png"
   },
   {
@@ -909,6 +1022,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754678/Tangela.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754678/Tangela.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754713/Tangela_hidden.png"
   },
   {
@@ -917,6 +1031,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754737/Kangaskhan.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754737/Kangaskhan.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754764/Kangaskhan_hidden.png"
   },
   {
@@ -925,6 +1040,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754790/Horsea.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754790/Horsea.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754818/Horsea_hidden.png"
   },
   {
@@ -933,6 +1049,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754840/Seadra.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754840/Seadra.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754864/Seadra_hidden.png"
   },
   {
@@ -941,6 +1058,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754891/Goldeen.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754891/Goldeen.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754917/Goldeen_hidden.png"
   },
   {
@@ -949,6 +1067,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754941/Seaking.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754941/Seaking.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754967/Seaking_hidden.png"
   },
   {
@@ -957,6 +1076,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487754991/Staryu.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487754991/Staryu.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755018/Staryu_hidden.png"
   },
   {
@@ -965,6 +1085,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755049/Starmie.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755049/Starmie.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755086/Starmie_hidden.png"
   },
   {
@@ -973,6 +1094,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755111/Mr. Mime.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755111/Mr. Mime.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755148/Mr. Mime_hidden.png"
   },
   {
@@ -981,6 +1103,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755185/Scyther.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755185/Scyther.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755210/Scyther_hidden.png"
   },
   {
@@ -989,6 +1112,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755238/Jynx.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755238/Jynx.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755283/Jynx_hidden.png"
   },
   {
@@ -997,6 +1121,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755305/Electabuzz.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755305/Electabuzz.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755333/Electabuzz_hidden.png"
   },
   {
@@ -1005,6 +1130,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755364/Magmar.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755364/Magmar.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755390/Magmar_hidden.png"
   },
   {
@@ -1013,6 +1139,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755413/Pinsir.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755413/Pinsir.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755438/Pinsir_hidden.png"
   },
   {
@@ -1021,6 +1148,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755459/Tauros.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755459/Tauros.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755485/Tauros_hidden.png"
   },
   {
@@ -1029,6 +1157,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755508/Magikarp.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755508/Magikarp.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755535/Magikarp_hidden.png"
   },
   {
@@ -1037,6 +1166,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755570/Gyarados.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755570/Gyarados.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755602/Gyarados_hidden.png"
   },
   {
@@ -1045,6 +1175,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755624/Lapras.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755624/Lapras.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755649/Lapras_hidden.png"
   },
   {
@@ -1053,6 +1184,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755670/Ditto.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755670/Ditto.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755693/Ditto_hidden.png"
   },
   {
@@ -1061,6 +1193,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755738/Eevee.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755738/Eevee.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755763/Eevee_hidden.png"
   },
   {
@@ -1069,6 +1202,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755785/Vaporeon.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755785/Vaporeon.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755816/Vaporeon_hidden.png"
   },
   {
@@ -1077,6 +1211,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755836/Jolteon.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755836/Jolteon.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755861/Jolteon_hidden.png"
   },
   {
@@ -1085,6 +1220,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755883/Flareon.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755883/Flareon.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755910/Flareon_hidden.png"
   },
   {
@@ -1093,6 +1229,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755930/Porygon.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755930/Porygon.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755957/Porygon_hidden.png"
   },
   {
@@ -1101,6 +1238,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487755980/Omanyte.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487755980/Omanyte.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756008/Omanyte_hidden.png"
   },
   {
@@ -1109,6 +1247,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756031/Omastar.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756031/Omastar.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756057/Omastar_hidden.png"
   },
   {
@@ -1117,6 +1256,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756081/Kabuto.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756081/Kabuto.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756105/Kabuto_hidden.png"
   },
   {
@@ -1125,6 +1265,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756126/Kabutops.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756126/Kabutops.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756156/Kabutops_hidden.png"
   },
   {
@@ -1133,6 +1274,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756181/Aerodactyl.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756181/Aerodactyl.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756203/Aerodactyl_hidden.png"
   },
   {
@@ -1141,6 +1283,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756223/Snorlax.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756223/Snorlax.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756246/Snorlax_hidden.png"
   },
   {
@@ -1149,6 +1292,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756267/Articuno.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756267/Articuno.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756291/Articuno_hidden.png"
   },
   {
@@ -1157,6 +1301,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756312/Zapdos.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756312/Zapdos.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756335/Zapdos_hidden.png"
   },
   {
@@ -1165,6 +1310,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756358/Moltres.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756358/Moltres.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756382/Moltres_hidden.png"
   },
   {
@@ -1173,6 +1319,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756404/Dratini.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756404/Dratini.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756431/Dratini_hidden.png"
   },
   {
@@ -1181,6 +1328,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756456/Dragonair.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756456/Dragonair.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756486/Dragonair_hidden.png"
   },
   {
@@ -1189,6 +1337,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756506/Dragonite.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756506/Dragonite.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756545/Dragonite_hidden.png"
   },
   {
@@ -1197,6 +1346,7 @@ export const pokemonList = [
     hidden_name: "???",
     found: false,
     found_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756570/Mewtwo.png",
+    marker_url: "https://res.cloudinary.com/joycechau/image/upload/c_scale,h_60/v1487756570/Mewtwo.png",
     hidden_url: "https://res.cloudinary.com/joycechau/image/upload/v1487756597/Mewtwo_hidden.png"
   }
 ];
