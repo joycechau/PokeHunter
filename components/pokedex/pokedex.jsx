@@ -6,11 +6,15 @@ export default class Pokedex extends React.Component {
   constructor(props) {
     super(props);
     this.state = { pokemonList };
-    this.onPokeballClicked = this.onPokeballClicked.bind(this);
+    this.onPokemonClicked = this.onPokemonClicked.bind(this);
   }
 
-  onPokeballClicked() {
-    // Pokedex Logic
+  onPokemonClicked(pokemon) {
+    const newPokemonList = pokemonList.slice();
+    newPokemonList[`${parseInt(pokemon.id)}` - 1].found = true;
+    this.setState({
+      pokemonList: newPokemonList
+    });
   }
 
   renderPokemon(key, pokemon) {

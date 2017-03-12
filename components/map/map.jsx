@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './map.css';
+import { pokemonList } from '../pokedex/pokemon_list.js';
+
+const POKEMON_LIST = pokemonList;
 
 const POKE_MARKERS = [
   'https://res.cloudinary.com/joycechau/image/upload/v1487572646/ultraball.png',
@@ -42,12 +45,13 @@ export default class Map extends React.Component {
   }
 
   addPokeballMarker(map) {
+    const randomPokeball = POKE_MARKERS[Math.floor(Math.random() * POKE_MARKERS.length)];
     const lat = Math.random() * (MAX_LAT - MIN_LAT) + MIN_LAT;
     const lng = Math.random() * (MAX_LNG - MIN_LNG) + MIN_LNG;
 
     const pokeballMarker = new google.maps.Marker({
       position: {lat, lng},
-      icon: POKE_MARKERS[Math.floor(Math.random() * POKE_MARKERS.length)],
+      icon: randomPokeball,
       map: map
     });
 
@@ -63,22 +67,26 @@ export default class Map extends React.Component {
 
       this.addPokemonMarker(map, markerLat, markerLng)
 
-      if (this.props.onPokeballClick) {
-        this.props.onPokeballClick();
-      }
     });
 
   }
 
   addPokemonMarker(map, lat, lng) {
+    const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
+    const icon = {
+      url: randomPokemon.marker_url,
+    };
     const pokemonMarker = new google.maps.Marker({
       position: map.getCenter(),
-      icon: POKE_MARKERS[Math.floor(Math.random() * POKE_MARKERS.length)],
+      icon: icon,
       map: map
     });
-    console.log(map.getBounds());
-    console.log(map.getBounds());
-    console.log(map.getBounds());
+
+    pokemonMarker.addListener('click', () => {
+      if (this.props.onPokemonClick) {
+        this.props.onPokemonClick(randomPokemon);
+      }
+    });
   }
 
   render() {
