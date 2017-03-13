@@ -7,7 +7,7 @@ import { style } from '../pokemon/pokemon.js';
 
 const POKEMON_LIST = pokemonList;
 
-const POKE_MARKERS = [
+const POKEBALL_MARKERS = [
   'https://res.cloudinary.com/joycechau/image/upload/v1487572646/ultraball.png',
   'https://res.cloudinary.com/joycechau/image/upload/v1487572637/safariball.png',
   'https://res.cloudinary.com/joycechau/image/upload/v1487572623/greatball.png',
@@ -33,7 +33,7 @@ export default class Map extends React.Component {
     const map = new google.maps.Map(document.getElementById('map'), {
       zoom: 4,
       minZoom: 4,
-      center: {lat: 35, lng: -95},
+      center: { lat: 35, lng: -95 },
       zoomControl: true,
       mapTypeControl: false,
       scaleControl: false,
@@ -44,6 +44,31 @@ export default class Map extends React.Component {
       draggable: true,
       scrollwheel: true,
     });
+    const infoMarker = new google.maps.Marker({
+      position: { lat: 35, lng: -95 },
+      icon: POKEBALL_MARKERS[4],
+      map: map
+    });
+    const infoWindow = new google.maps.InfoWindow({
+      content: "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
+                 "Click on pokeballs to search for pokemon!" +
+               "</div>"
+    });
+
+    infoWindow.open(map, infoMarker);
+
+    infoMarker.addListener('click', () => {
+      infoMarker.setMap(null);
+      this.addPokeballMarker(map);
+
+      const markerLat = infoMarker.getPosition().lat();
+      const markerLng = infoMarker.getPosition().lng();
+
+      map.panTo({ lat: markerLat, lng: markerLng });
+      map.setZoom(10);
+
+      this.addPokemonMarker(map, markerLat, markerLng);
+    });
 
     for (let i = 0; i < 750; i++) {
       this.addPokeballMarker(map);
@@ -53,16 +78,16 @@ export default class Map extends React.Component {
       map: map,
       pokemon: null,
       modalOpen: false
-    })
+    });
   }
 
   addPokeballMarker(map) {
-    const randomPokeball = POKE_MARKERS[Math.floor(Math.random() * POKE_MARKERS.length)];
+    const randomPokeball = POKEBALL_MARKERS[Math.floor(Math.random() * POKEBALL_MARKERS.length)];
     const lat = Math.random() * (MAX_LAT - MIN_LAT) + MIN_LAT;
     const lng = Math.random() * (MAX_LNG - MIN_LNG) + MIN_LNG;
 
     const pokeballMarker = new google.maps.Marker({
-      position: {lat, lng},
+      position: { lat, lng },
       icon: randomPokeball,
       map: map
     });
@@ -74,11 +99,10 @@ export default class Map extends React.Component {
       const markerLat = pokeballMarker.getPosition().lat();
       const markerLng = pokeballMarker.getPosition().lng();
 
-      map.panTo({lat: markerLat, lng: markerLng});
+      map.panTo({ lat: markerLat, lng: markerLng });
       map.setZoom(10);
 
-      this.addPokemonMarker(map, markerLat, markerLng)
-
+      this.addPokemonMarker(map, markerLat, markerLng);
     });
 
   }
