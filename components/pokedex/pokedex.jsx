@@ -12,6 +12,7 @@ export default class Pokedex extends React.Component {
   onPokemonClicked(pokemon) {
     const newPokemonList = pokemonList.slice();
     newPokemonList[`${parseInt(pokemon.id)}` - 1].found = true;
+    document.getElementById(`${pokemon.name}`).scrollIntoView();
     this.setState({
       pokemonList: newPokemonList
     });
@@ -19,7 +20,7 @@ export default class Pokedex extends React.Component {
 
   renderPokemon(key, pokemon) {
     return (
-      <div key={key} className={styles.item}>
+      <div key={key} className={styles.item} id={pokemon.name}>
         { pokemon.id }
         <img src={pokemon.found ? pokemon.found_url : pokemon.hidden_url} className={styles.img} />
         { pokemon.found ? pokemon.name : pokemon.hidden_name }
