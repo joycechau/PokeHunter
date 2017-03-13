@@ -39,7 +39,7 @@ export default class Map extends React.Component {
       scrollwheel: true,
     });
 
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 750; i++) {
       this.addPokeballMarker(map);
     }
   }
