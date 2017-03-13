@@ -105,7 +105,7 @@ export default class Map extends React.Component {
 
   }
 
-  addPokemonMarker(map, lat, lng) {
+  addPokemonMarker(map) {
     const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
     const icon = {
       url: randomPokemon.marker_url,
@@ -116,6 +116,10 @@ export default class Map extends React.Component {
       map: map
     });
 
+    map.addListener('zoom_changed', () => {
+      pokemonMarker.setMap(null);
+    });
+
     pokemonMarker.addListener('click', () => {
       pokemonMarker.setMap(null);
       this.openModal(randomPokemon);
@@ -124,6 +128,22 @@ export default class Map extends React.Component {
         this.props.onPokemonClick(randomPokemon);
       }
     });
+
+    setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
+    setInterval(() => this.updatePokemonPosition(pokemonMarker, map), 800);
+  }
+
+  updatePokemonPosition(pokemonMarker, map) {
+    const latDiff = 0.20;
+    const lngDiff = 0.40;
+    const maxLat = map.getCenter().lat() + latDiff;
+    const minLat = map.getCenter().lat() - latDiff;
+    const maxLng = map.getCenter().lng() + lngDiff;
+    const minLng = map.getCenter().lng() - lngDiff;
+    const newLat = Math.random() * (maxLat - minLat) + minLat;
+    const newLng = Math.random() * (maxLng - minLng) + minLng;
+    const newPosition = new google.maps.LatLng(newLat, newLng);
+    pokemonMarker.setPosition(newPosition);
   }
 
   openModal(pokemon) {
