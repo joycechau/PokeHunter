@@ -9,11 +9,11 @@ export default class App extends React.Component {
   constructor(props){
     super(props);
 
-    this.onPokeballClick = this.onPokeballClick.bind(this);
+    this.onPokemonClick = this.onPokemonClick.bind(this);
   }
 
-  onPokeballClick() {
-    this.refs.pokedex.onPokeballClicked();
+  onPokemonClick(pokemon) {
+    this.refs.pokedex.onPokemonClicked(pokemon);
   }
 
   render() {
@@ -27,7 +27,7 @@ export default class App extends React.Component {
             <Pokedex ref="pokedex" />
           </div>
           <div className={styles.map}>
-            <Map onPokeballClick={this.onPokeballClick} />
+            <Map onPokemonClick={this.onPokemonClick} />
           </div>
         </div>
       </div>
