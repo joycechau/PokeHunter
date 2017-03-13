@@ -20,11 +20,13 @@ const MAX_LAT = 85;
 const MIN_LAT = -85;
 const MAX_LNG = 180;
 const MIN_LNG = -180;
+const TOTAL_POKEBALLS = 750;
 
 export default class Map extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { map: null, pokemon: null, modalOpen: false };
+    this.state = { pokemon: null, modalOpen: false };
+    this.map = null
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
@@ -70,15 +72,11 @@ export default class Map extends React.Component {
       this.addPokemonMarker(map, markerLat, markerLng);
     });
 
-    for (let i = 0; i < 750; i++) {
+    for (let i = 0; i < TOTAL_POKEBALLS; i++) {
       this.addPokeballMarker(map);
     }
 
-    this.setState({
-      map: map,
-      pokemon: null,
-      modalOpen: false
-    });
+    this.map = map;
   }
 
   addPokeballMarker(map) {
@@ -130,16 +128,14 @@ export default class Map extends React.Component {
 
   openModal(pokemon) {
     this.setState({
-      map: this.state.map,
       pokemon: pokemon,
       modalOpen: true
     });
   }
 
   closeModal() {
-    this.state.map.setZoom(4);
+    this.map.setZoom(4);
     this.setState({
-      map: this.state.map,
       pokemon: null,
       modalOpen: false
     });
