@@ -1,6 +1,9 @@
 import React from 'react';
+import Modal from 'react-modal';
 import styles from './map.css';
 import { pokemonList } from '../pokedex/pokemon_list.js';
+import Pokemon from '../pokemon/pokemon.jsx';
+import { style } from '../pokemon/pokemon.js';
 
 const POKEMON_LIST = pokemonList;
 
@@ -21,6 +24,9 @@ const MIN_LNG = -180;
 export default class Map extends React.Component {
   constructor(props) {
     super(props);
+    this.state = { modalOpen: false, pokemon: null };
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
 
   componentDidMount() {
@@ -83,15 +89,35 @@ export default class Map extends React.Component {
     });
 
     pokemonMarker.addListener('click', () => {
+      pokemonMarker.setMap(null);
+      this.openModal(randomPokemon);
+
       if (this.props.onPokemonClick) {
         this.props.onPokemonClick(randomPokemon);
       }
     });
   }
 
+  openModal(pokemon) {
+    this.setState({ modalOpen: true, pokemon: pokemon });
+  }
+
+  closeModal() {
+    this.setState({ modalOpen: false, pokemon: null });
+  }
+
+
   render() {
     return (
-      <div id="map" className={styles.map} />
+      <div id="map" className={styles.map}>
+        <Modal
+          isOpen={this.state.modalOpen}
+          onRequestClose={this.closeModal}
+          contentLabel="Modal"
+          style={style}>
+          <Pokemon pokemon={this.state.pokemon}/>
+        </Modal>
+      </div>
     );
   }
 }
