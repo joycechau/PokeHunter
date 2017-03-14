@@ -51,7 +51,7 @@ export default class Map extends React.Component {
       fullscreenControl: false,
       panControl: true,
       draggable: true,
-      scrollwheel: true,
+      scrollwheel: true
     });
 
     this.map = map;
@@ -120,6 +120,11 @@ export default class Map extends React.Component {
   }
 
   addPokemonMarker(map) {
+    map.setOptions(Object.assign(map, {
+      zoomControl: false,
+      scrollwheel: false
+    }));
+
     const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
     const icon = {
       url: randomPokemon.marker_url,
@@ -158,6 +163,7 @@ export default class Map extends React.Component {
 
     setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
     setInterval(() => this.updatePokemonPosition(pokemonMarker, map), 800);
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(this.runawayButton(map, pokemonMarker));
   }
 
   pokemonInfoWindowContent() {
@@ -174,7 +180,6 @@ export default class Map extends React.Component {
           `A wild ${this.state.pokemon.name} appeared!` +
         "</div>"
       );
-
     }
   }
 
@@ -191,6 +196,23 @@ export default class Map extends React.Component {
     pokemonMarker.setPosition(newPosition);
   }
 
+  runawayButton(map, pokemonMarker) {
+    const runawayButton = $(
+      '<img id="runaway-button" src="https://res.cloudinary.com/joycechau/image/upload/v1489479098/runaway.png" alt="RunAway"/>'
+    );
+    runawayButton[0].style.cursor = "pointer";
+    runawayButton[0].style.marginRight = "10px";
+    runawayButton[0].style.marginTop = "10px";
+    runawayButton[0].style.width = "30px";
+    runawayButton[0].style.height = "30px";
+    runawayButton.bind('click', () => {
+      pokemonMarker.setMap(null);
+      this.resetMap();
+    });
+
+    return runawayButton[0];
+  }
+
   openModal(pokemon) {
     this.setState({
       pokemon: pokemon,
@@ -199,11 +221,20 @@ export default class Map extends React.Component {
   }
 
   closeModal() {
-    this.map.setZoom(4);
+    this.resetMap();
     this.setState({
       pokemon: null,
       modalOpen: false
     });
+  }
+
+  resetMap() {
+    this.map.setOptions(Object.assign(this.map, {
+      zoomControl: true,
+      scrollwheel: true,
+      zoom: 4
+    }));
+    $('#runaway-button').remove();
   }
 
   render() {
