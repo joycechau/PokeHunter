@@ -12,7 +12,6 @@ export default class Pokedex extends React.Component {
   onPokemonClicked(pokemon) {
     const newPokemonList = pokemonList.slice();
     newPokemonList[`${parseInt(pokemon.id)}` - 1].found = true;
-    document.getElementById(`${pokemon.name}`).scrollIntoView();
     this.setState({
       pokemonList: newPokemonList
     });

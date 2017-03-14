@@ -27,7 +27,6 @@ export default class Map extends React.Component {
     super(props);
     this.state = { pokemon: null, modalOpen: false };
     this.map = null;
-    this.firstPokemon = true;
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
@@ -139,21 +138,10 @@ export default class Map extends React.Component {
       pokemon: randomPokemon,
     });
 
-    const infoWindow = new google.maps.InfoWindow({
-      content: this.pokemonInfoWindowContent(),
-      position: map.getCenter()
-    });
-
-    infoWindow.open(map);
-
-    map.addListener('zoom_changed', () => {
-      pokemonMarker.setMap(null);
-      infoWindow.close();
-    });
+    document.getElementById(`${this.state.pokemon.name}`).scrollIntoView();
 
     pokemonMarker.addListener('click', () => {
       pokemonMarker.setMap(null);
-      infoWindow.close();
       this.openModal(randomPokemon);
 
       if (this.props.onPokemonClick) {
@@ -163,28 +151,13 @@ export default class Map extends React.Component {
 
     setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
     setInterval(() => this.updatePokemonPosition(pokemonMarker, map), 800);
-    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(this.runawayButton(map, pokemonMarker));
-  }
 
-  pokemonInfoWindowContent() {
-    if (this.firstPokemon) {
-      this.firstPokemon = false;
-      return (
-        "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
-          `A wild ${this.state.pokemon.name} appeared!  Click to catch it.  Zooming will scare it away!` +
-        "</div>"
-      );
-    } else {
-      return (
-        "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
-          `A wild ${this.state.pokemon.name} appeared!` +
-        "</div>"
-      );
-    }
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(this.runawayButton(map, pokemonMarker));
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(this.pokemonMessage(map, pokemonMarker));
   }
 
   updatePokemonPosition(pokemonMarker, map) {
-    const latDiff = 0.20;
+    const latDiff = 0.18;
     const lngDiff = 0.40;
     const maxLat = map.getCenter().lat() + latDiff;
     const minLat = map.getCenter().lat() - latDiff;
@@ -196,9 +169,22 @@ export default class Map extends React.Component {
     pokemonMarker.setPosition(newPosition);
   }
 
+  pokemonMessage(map, pokemonMarker) {
+    const pokemonMessage = $(
+      `<div id="pokemon-message">A wild ${this.state.pokemon.name} appeared! Click to catch it!</div>`
+    );
+    pokemonMessage[0].style.marginLeft = "10px";
+    pokemonMessage[0].style.marginTop = "10px";
+    pokemonMessage[0].style.padding = "10px";
+    pokemonMessage[0].style.paddingBottom = "7px";
+    pokemonMessage[0].style.backgroundColor = "white";
+
+    return pokemonMessage[0];
+  }
+
   runawayButton(map, pokemonMarker) {
     const runawayButton = $(
-      '<img id="runaway-button" src="https://res.cloudinary.com/joycechau/image/upload/v1489479098/runaway.png" alt="RunAway"/>'
+      '<img id="runaway-button" src="https://res.cloudinary.com/joycechau/image/upload/v1489479098/runaway.png" alt="Run Away"/>'
     );
     runawayButton[0].style.cursor = "pointer";
     runawayButton[0].style.marginRight = "10px";
@@ -235,6 +221,7 @@ export default class Map extends React.Component {
       zoom: 4
     }));
     $('#runaway-button').remove();
+    $('#pokemon-message').remove();
   }
 
   render() {
