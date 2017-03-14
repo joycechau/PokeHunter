@@ -12,9 +12,11 @@ export default class Pokemon extends React.Component {
     return (
       <div>
         <div className={styles.header}>
-          You caught { pokemonName }!
+          You caught {pokemonName}!
         </div>
-        <img src={ pokemonImage} className={styles.img}/>
+        <img src={pokemonImage}
+             alt={pokemonName}
+             className={styles.img}/>
       </div>
     );
   }
