@@ -26,12 +26,19 @@ export default class Map extends React.Component {
   constructor(props) {
     super(props);
     this.state = { pokemon: null, modalOpen: false };
-    this.map = null
+    this.map = null;
+    this.firstPokemon = true;
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
 
   componentDidMount() {
+    const map = this.createMap();
+    this.createInfoWindow(map);
+    this.addPokeballMarkers(map);
+  }
+
+  createMap() {
     const map = new google.maps.Map(document.getElementById('map'), {
       zoom: 4,
       minZoom: 4,
@@ -46,11 +53,18 @@ export default class Map extends React.Component {
       draggable: true,
       scrollwheel: true,
     });
+
+    this.map = map;
+    return map;
+  }
+
+  createInfoWindow(map) {
     const infoMarker = new google.maps.Marker({
       position: { lat: 35, lng: -95 },
       icon: POKEBALL_MARKERS[4],
       map: map
     });
+
     const infoWindow = new google.maps.InfoWindow({
       content: "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
                  "Click on pokeballs to search for pokemon!" +
@@ -71,12 +85,12 @@ export default class Map extends React.Component {
 
       this.addPokemonMarker(map, markerLat, markerLng);
     });
+  }
 
+  addPokeballMarkers(map) {
     for (let i = 0; i < TOTAL_POKEBALLS; i++) {
       this.addPokeballMarker(map);
     }
-
-    this.map = map;
   }
 
   addPokeballMarker(map) {
@@ -116,12 +130,25 @@ export default class Map extends React.Component {
       map: map
     });
 
+    this.setState({
+      pokemon: randomPokemon,
+    });
+
+    const infoWindow = new google.maps.InfoWindow({
+      content: this.pokemonInfoWindowContent(),
+      position: map.getCenter()
+    });
+
+    infoWindow.open(map);
+
     map.addListener('zoom_changed', () => {
       pokemonMarker.setMap(null);
+      infoWindow.close();
     });
 
     pokemonMarker.addListener('click', () => {
       pokemonMarker.setMap(null);
+      infoWindow.close();
       this.openModal(randomPokemon);
 
       if (this.props.onPokemonClick) {
@@ -131,6 +158,24 @@ export default class Map extends React.Component {
 
     setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
     setInterval(() => this.updatePokemonPosition(pokemonMarker, map), 800);
+  }
+
+  pokemonInfoWindowContent() {
+    if (this.firstPokemon) {
+      this.firstPokemon = false;
+      return (
+        "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
+          `A wild ${this.state.pokemon.name} appeared!  Click to catch it.  Zooming will scare it away!` +
+        "</div>"
+      );
+    } else {
+      return (
+        "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
+          `A wild ${this.state.pokemon.name} appeared!` +
+        "</div>"
+      );
+
+    }
   }
 
   updatePokemonPosition(pokemonMarker, map) {
