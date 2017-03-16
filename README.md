@@ -21,6 +21,7 @@ The project was implemented with the following technologies:
 * Google Maps API for displaying the world map
 * Vanilla Javascript and ```jQuery``` for additional DOM manipulation
 * Webpack to bundle and serve up the various scripts
+* Cloudinary for image storage
 
 ## Technical Implementation
 
