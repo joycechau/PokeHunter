@@ -14,9 +14,11 @@ export default class Pokemon extends React.Component {
         <div className={styles.header}>
           You caught {pokemonName}!
         </div>
-        <img src={pokemonImage}
-             alt={pokemonName}
-             className={styles.img}/>
+        <div className={styles.stage}>      
+          <img src={pokemonImage}
+            alt={pokemonName}
+            className={styles.img}/>
+        </div>
       </div>
     );
   }

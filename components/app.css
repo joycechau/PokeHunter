@@ -3,27 +3,31 @@
 }
 
 .header {
-  height: 50px;
+  height: 75px;
   width: 100%;
   align-items: center;
-  border: 1px solid red;
   position: absolute;
+  background-color: red;
+  border: 10px solid black;
+  border-bottom: none;
 }
 
 .content {
   display: flex;
   height: 100vh;
-  padding-top: 50px;
+  padding-top: 75px;
 }
 
 .pokedex {
   width: 325px;
   overflow-y: scroll;
-  border: 1px solid green;
+  border: 10px solid black;
+  border-right: none;
 }
 
 .map {
   display: flex;
   flex: 1;
-  border: 1px solid blue;
+  background-color: red;
+  border: 10px solid black;
 }

@@ -13,10 +13,11 @@ export const style = {
     top             : '50%',
     left            : '50%',
     transform       : 'translate(-50%, -50%)',
-    border          : '2px solid red',
+    border          : '2px solid black',
     padding         : '30px',
     zIndex          : 11,
     width           : '425px',
     height          : '425px',
+    backgroundColor : 'maroon'
   }
 };

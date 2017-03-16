@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 25px;
+  padding: 25px;
+  animation: type 4s steps(60, end);
+  -webkit-animation: type 4s steps(60, end);
+  -ms-animation: type 4s steps(60, end);
+  -moz-animation: type 4s steps(60, end);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+}
+
+@keyframes type, {
+  from { width: 0; }
+}
+
+@-webkit-keyframes type {
+  from { width: 0; }
+}
+
+@-ms-keyframes type {
+  from { width: 0; }
+}
+
+@-moz-keyframes type {
+  from { width: 0; }
+}
+
+
+.img {
+  height: 40px;
+  width: 40px;
+  margin: 13px;
+  margin-left: 0px;
+}
