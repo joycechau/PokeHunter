@@ -10,10 +10,10 @@ PokeHunter was built by [Joyce Chau](https://github.com/joycechau) and
 ## Example Features
 
 ### Catching Pokemon
-![catching pokemon](./assets/catching_pokemon.gif)
+![catching pokemon](./assets/catching_pokemon2.gif)
 
 ### Caught Pokemon
-![caught pokemon](./assets/caught_pokemon.gif)
+![caught pokemon](./assets/caught_pokemon2.gif)
 
 ## Architecture and Technologies
 The project was implemented with the following technologies:
