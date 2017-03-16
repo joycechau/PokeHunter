@@ -8,8 +8,7 @@
   align-items: center;
   position: absolute;
   background-color: red;
-  border: 10px solid black;
-  border-bottom: none;
+  border-bottom: 2px solid black;
 }
 
 .content {
@@ -21,16 +20,13 @@
 .pokedex {
   width: 325px;
   overflow-y: scroll;
-  border: 10px solid black;
-  border-right: none;
+  border-right: 2px solid black;
 }
 
 .map {
   display: flex;
   flex: 1;
   background-color: red;
-  border: 10px solid black;
   background-image: url("https://res.cloudinary.com/joycechau/image/upload/e_grayscale/v1489659665/pokehunter_background.jpg");
   background-size: cover;
-  background-color: (0, 0, 0, 0.5)
 }

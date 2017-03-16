@@ -5,7 +5,7 @@
 
 .title {
   font-size: 25px;
-  padding: 25px;
+  padding: 28px;
   animation: type 4s steps(60, end);
   -webkit-animation: type 4s steps(60, end);
   -ms-animation: type 4s steps(60, end);
@@ -35,6 +35,6 @@
 .img {
   height: 40px;
   width: 40px;
-  margin: 13px;
+  margin: 16px;
   margin-left: 0px;
 }
