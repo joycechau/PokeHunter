@@ -121,6 +121,7 @@ export default class Map extends React.Component {
   addPokemonMarker(map) {
     map.setOptions(Object.assign(map, {
       zoomControl: false,
+      draggable: false,
       scrollwheel: false
     }));
 
@@ -217,6 +218,7 @@ export default class Map extends React.Component {
   resetMap() {
     this.map.setOptions(Object.assign(this.map, {
       zoomControl: true,
+      draggable: true,
       scrollwheel: true,
       zoom: 4
     }));
