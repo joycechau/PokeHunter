@@ -98,7 +98,6 @@ export default class Map extends React.Component {
     const randomPokeball = POKEBALL_MARKERS[Math.floor(Math.random() * POKEBALL_MARKERS.length)];
     const lat = Math.random() * (MAX_LAT - MIN_LAT) + MIN_LAT;
     const lng = Math.random() * (MAX_LNG - MIN_LNG) + MIN_LNG;
-
     const pokeballMarker = new google.maps.Marker({
       position: { lat, lng },
       icon: randomPokeball,
@@ -129,7 +128,8 @@ export default class Map extends React.Component {
       scrollwheel: false
     }));
 
-    const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
+    // const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
+    const randomPokemon = POKEMON_LIST[3];
     const icon = {
       url: randomPokemon.marker_url,
     };
