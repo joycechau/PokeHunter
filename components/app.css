@@ -7,7 +7,7 @@
   width: 100%;
   align-items: center;
   position: absolute;
-  background-color: red;
+  background-color: firebrick;
   border-bottom: 2px solid black;
 }
 
@@ -26,7 +26,6 @@
 .map {
   display: flex;
   flex: 1;
-  background-color: red;
   background-image: url("https://res.cloudinary.com/joycechau/image/upload/e_grayscale/v1489659665/pokehunter_background.jpg");
   background-size: cover;
 }

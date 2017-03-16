@@ -5,7 +5,7 @@
 PokeHunter was built by [Joyce Chau](https://github.com/joycechau) and
 [Kenneth Truong](https://github.com/kennethtruong).
 
-![pokehunter](./assets/pokehunter3.png)
+![pokehunter](./assets/pokehunter.gif)
 
 ## Example Features
 
@@ -13,7 +13,7 @@ PokeHunter was built by [Joyce Chau](https://github.com/joycechau) and
 ![catching pokemon](./assets/catching_pokemon2.gif)
 
 ### Caught Pokemon
-![caught pokemon](./assets/caught_pokemon2.gif)
+![caught pokemon](./assets/caught_pokemon4.gif)
 
 ## Architecture and Technologies
 The project was implemented with the following technologies:

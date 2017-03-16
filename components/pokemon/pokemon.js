@@ -18,6 +18,6 @@ export const style = {
     zIndex          : 11,
     width           : '425px',
     height          : '425px',
-    backgroundColor : 'maroon'
+    backgroundColor : 'firebrick'
   }
 };
