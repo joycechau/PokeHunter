@@ -26,12 +26,19 @@ export default class Map extends React.Component {
   constructor(props) {
     super(props);
     this.state = { pokemon: null, modalOpen: false };
-    this.map = null
+    this.map = null;
+    this.pokeballs = [];
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
 
   componentDidMount() {
+    const map = this.createMap();
+    this.createInfoWindow(map);
+    this.addPokeballMarkers(map);
+  }
+
+  createMap() {
     const map = new google.maps.Map(document.getElementById('map'), {
       zoom: 4,
       minZoom: 4,
@@ -44,13 +51,20 @@ export default class Map extends React.Component {
       fullscreenControl: false,
       panControl: true,
       draggable: true,
-      scrollwheel: true,
+      scrollwheel: true
     });
+
+    this.map = map;
+    return map;
+  }
+
+  createInfoWindow(map) {
     const infoMarker = new google.maps.Marker({
       position: { lat: 35, lng: -95 },
       icon: POKEBALL_MARKERS[4],
       map: map
     });
+
     const infoWindow = new google.maps.InfoWindow({
       content: "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
                  "Click on pokeballs to search for pokemon!" +
@@ -61,51 +75,59 @@ export default class Map extends React.Component {
 
     infoMarker.addListener('click', () => {
       infoMarker.setMap(null);
+      this.pokeballs.splice(this.pokeballs.indexOf(infoMarker), 1);
       this.addPokeballMarker(map);
+      this.pokeballs.forEach((pokeball) => pokeball.setMap(null));
 
       const markerLat = infoMarker.getPosition().lat();
       const markerLng = infoMarker.getPosition().lng();
 
       map.panTo({ lat: markerLat, lng: markerLng });
       map.setZoom(10);
-
       this.addPokemonMarker(map, markerLat, markerLng);
     });
+  }
 
+  addPokeballMarkers(map) {
     for (let i = 0; i < TOTAL_POKEBALLS; i++) {
       this.addPokeballMarker(map);
     }
-
-    this.map = map;
   }
 
   addPokeballMarker(map) {
     const randomPokeball = POKEBALL_MARKERS[Math.floor(Math.random() * POKEBALL_MARKERS.length)];
     const lat = Math.random() * (MAX_LAT - MIN_LAT) + MIN_LAT;
     const lng = Math.random() * (MAX_LNG - MIN_LNG) + MIN_LNG;
-
     const pokeballMarker = new google.maps.Marker({
       position: { lat, lng },
       icon: randomPokeball,
       map: map
     });
 
+    this.pokeballs.push(pokeballMarker);
+
     pokeballMarker.addListener('click', () => {
       pokeballMarker.setMap(null);
+      this.pokeballs.splice(this.pokeballs.indexOf(pokeballMarker), 1);
       this.addPokeballMarker(map);
+      this.pokeballs.forEach((pokeball) => pokeball.setMap(null));
 
       const markerLat = pokeballMarker.getPosition().lat();
       const markerLng = pokeballMarker.getPosition().lng();
 
       map.panTo({ lat: markerLat, lng: markerLng });
       map.setZoom(10);
-
       this.addPokemonMarker(map, markerLat, markerLng);
     });
-
   }
 
-  addPokemonMarker(map, lat, lng) {
+  addPokemonMarker(map) {
+    map.setOptions(Object.assign(map, {
+      zoomControl: false,
+      draggable: false,
+      scrollwheel: false
+    }));
+
     const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
     const icon = {
       url: randomPokemon.marker_url,
@@ -116,6 +138,12 @@ export default class Map extends React.Component {
       map: map
     });
 
+    this.setState({
+      pokemon: randomPokemon,
+    });
+
+    document.getElementById(`${this.state.pokemon.name}`).scrollIntoView();
+
     pokemonMarker.addListener('click', () => {
       pokemonMarker.setMap(null);
       this.openModal(randomPokemon);
@@ -124,6 +152,60 @@ export default class Map extends React.Component {
         this.props.onPokemonClick(randomPokemon);
       }
     });
+
+    setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
+    setInterval(() => this.updatePokemonPosition(pokemonMarker, map), 800);
+
+    map.controls[google.maps.ControlPosition.TOP_RIGHT].push(this.runawayButton(map, pokemonMarker));
+    map.controls[google.maps.ControlPosition.TOP_LEFT].push(this.pokemonMessage(map, pokemonMarker));
+  }
+
+  updatePokemonPosition(pokemonMarker, map) {
+    const latDiff = 0.18;
+    const lngDiff = 0.40;
+    const maxLat = map.getCenter().lat() + latDiff;
+    const minLat = map.getCenter().lat() - latDiff;
+    const maxLng = map.getCenter().lng() + lngDiff;
+    const minLng = map.getCenter().lng() - lngDiff;
+    const newLat = Math.random() * (maxLat - minLat) + minLat;
+    const newLng = Math.random() * (maxLng - minLng) + minLng;
+    const newPosition = new google.maps.LatLng(newLat, newLng);
+    pokemonMarker.setPosition(newPosition);
+  }
+
+  pokemonMessage(map, pokemonMarker) {
+    const pokemonMessage = $(
+      `<div id="pokemon-message"
+            style="margin-left: 10px;
+                  margin-top: 10px;
+                  padding: 10px;
+                  padding-bottom: 7px;
+                  background-color: white;">
+        A wild ${this.state.pokemon.name} appeared! Click to catch it!
+      </div>`
+    );
+
+    return pokemonMessage[0];
+  }
+
+  runawayButton(map, pokemonMarker) {
+    const runawayButton = $(
+      `<img id="runaway-button"
+            style="cursor: pointer;
+                  margin-right: 10px;
+                  margin-top: 10px;
+                  width: 30px;
+                  height: 30px;"
+            src="https://res.cloudinary.com/joycechau/image/upload/v1489479098/runaway.png"
+            alt="Run Away"/>`
+    );
+
+    runawayButton.bind('click', () => {
+      pokemonMarker.setMap(null);
+      this.resetMap();
+    });
+
+    return runawayButton[0];
   }
 
   openModal(pokemon) {
@@ -134,11 +216,23 @@ export default class Map extends React.Component {
   }
 
   closeModal() {
-    this.map.setZoom(4);
+    this.resetMap();
     this.setState({
       pokemon: null,
       modalOpen: false
     });
+  }
+
+  resetMap() {
+    this.map.setOptions(Object.assign(this.map, {
+      zoomControl: true,
+      draggable: true,
+      scrollwheel: true,
+      zoom: 4
+    }));
+    this.pokeballs.forEach((pokeball) => pokeball.setMap(this.map));
+    $('#runaway-button').remove();
+    $('#pokemon-message').remove();
   }
 
   render() {

@@ -1,11 +1,10 @@
 .item {
   line-height: 30px;
   padding: 8px;
-  border-bottom: 1px solid #ddd;
-    /*border-bottom: 1px solid #555;
-    background: #222;
-    color: white;
-    font-size: 14px;*/
+  border-bottom: 1px solid #777;
+  background: #555;
+  color: white;
+  font-size: 14px;
 }
 
 .img {
