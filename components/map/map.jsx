@@ -27,6 +27,7 @@ export default class Map extends React.Component {
     super(props);
     this.state = { pokemon: null, modalOpen: false };
     this.map = null;
+    this.pokeballs = [];
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
   }
@@ -74,14 +75,15 @@ export default class Map extends React.Component {
 
     infoMarker.addListener('click', () => {
       infoMarker.setMap(null);
+      this.pokeballs.splice(this.pokeballs.indexOf(infoMarker), 1);
       this.addPokeballMarker(map);
+      this.pokeballs.forEach((pokeball) => pokeball.setMap(null));
 
       const markerLat = infoMarker.getPosition().lat();
       const markerLng = infoMarker.getPosition().lng();
 
       map.panTo({ lat: markerLat, lng: markerLng });
       map.setZoom(10);
-
       this.addPokemonMarker(map, markerLat, markerLng);
     });
   }
@@ -103,19 +105,21 @@ export default class Map extends React.Component {
       map: map
     });
 
+    this.pokeballs.push(pokeballMarker);
+
     pokeballMarker.addListener('click', () => {
       pokeballMarker.setMap(null);
+      this.pokeballs.splice(this.pokeballs.indexOf(pokeballMarker), 1);
       this.addPokeballMarker(map);
+      this.pokeballs.forEach((pokeball) => pokeball.setMap(null));
 
       const markerLat = pokeballMarker.getPosition().lat();
       const markerLng = pokeballMarker.getPosition().lng();
 
       map.panTo({ lat: markerLat, lng: markerLng });
       map.setZoom(10);
-
       this.addPokemonMarker(map, markerLat, markerLng);
     });
-
   }
 
   addPokemonMarker(map) {
@@ -222,6 +226,7 @@ export default class Map extends React.Component {
       scrollwheel: true,
       zoom: 4
     }));
+    this.pokeballs.forEach((pokeball) => pokeball.setMap(this.map));
     $('#runaway-button').remove();
     $('#pokemon-message').remove();
   }
