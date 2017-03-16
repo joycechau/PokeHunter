@@ -175,26 +175,31 @@ export default class Map extends React.Component {
 
   pokemonMessage(map, pokemonMarker) {
     const pokemonMessage = $(
-      `<div id="pokemon-message">A wild ${this.state.pokemon.name} appeared! Click to catch it!</div>`
+      `<div id="pokemon-message"
+            style="margin-left: 10px;
+                  margin-top: 10px;
+                  padding: 10px;
+                  padding-bottom: 7px;
+                  background-color: white;">
+        A wild ${this.state.pokemon.name} appeared! Click to catch it!
+      </div>`
     );
-    pokemonMessage[0].style.marginLeft = "10px";
-    pokemonMessage[0].style.marginTop = "10px";
-    pokemonMessage[0].style.padding = "10px";
-    pokemonMessage[0].style.paddingBottom = "7px";
-    pokemonMessage[0].style.backgroundColor = "white";
 
     return pokemonMessage[0];
   }
 
   runawayButton(map, pokemonMarker) {
     const runawayButton = $(
-      '<img id="runaway-button" src="https://res.cloudinary.com/joycechau/image/upload/v1489479098/runaway.png" alt="Run Away"/>'
+      `<img id="runaway-button"
+            style="cursor: pointer;
+                  margin-right: 10px;
+                  margin-top: 10px;
+                  width: 30px;
+                  height: 30px;"
+            src="https://res.cloudinary.com/joycechau/image/upload/v1489479098/runaway.png"
+            alt="Run Away"/>`
     );
-    runawayButton[0].style.cursor = "pointer";
-    runawayButton[0].style.marginRight = "10px";
-    runawayButton[0].style.marginTop = "10px";
-    runawayButton[0].style.width = "30px";
-    runawayButton[0].style.height = "30px";
+
     runawayButton.bind('click', () => {
       pokemonMarker.setMap(null);
       this.resetMap();
