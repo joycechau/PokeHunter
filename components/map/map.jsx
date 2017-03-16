@@ -128,8 +128,7 @@ export default class Map extends React.Component {
       scrollwheel: false
     }));
 
-    // const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
-    const randomPokemon = POKEMON_LIST[3];
+    const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
     const icon = {
       url: randomPokemon.marker_url,
     };
