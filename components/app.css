@@ -30,4 +30,7 @@
   flex: 1;
   background-color: red;
   border: 10px solid black;
+  background-image: url("https://res.cloudinary.com/joycechau/image/upload/e_grayscale/v1489659665/pokehunter_background.jpg");
+  background-size: cover;
+  background-color: (0, 0, 0, 0.5)
 }
