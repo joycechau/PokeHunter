@@ -5,7 +5,7 @@
 PokeHunter was built by [Joyce Chau](https://github.com/joycechau) and
 [Kenneth Truong](https://github.com/kennethtruong).
 
-![pokehunter](./assets/pokehunter.png)
+![pokehunter](./assets/pokehunter2.png)
 
 ## Example Features
 
