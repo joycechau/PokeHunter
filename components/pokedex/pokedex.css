@@ -4,6 +4,7 @@
   overflow: hidden;
   position: fixed;
   top: 75px;
+  border-right: 2px solid black;
 }
 
 .title {
