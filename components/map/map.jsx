@@ -222,6 +222,13 @@ export default class Map extends React.Component {
       pokemon: null,
       modalOpen: false
     });
+    this.checkCaughtAllPokemon();
+  }
+
+  checkCaughtAllPokemon() {
+    if (this.props.pokemonList().every((pokemon) => pokemon.found)) {
+      alert("Congrats! You're a Pokemon Master! If you made it this far, you enjoyed the game and should probably give Joyce an interview. =)");
+    }
   }
 
   resetMap() {

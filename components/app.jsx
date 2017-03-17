@@ -8,12 +8,16 @@ import styles from './app.css';
 export default class App extends React.Component {
   constructor(props){
     super(props);
-
     this.onPokemonClick = this.onPokemonClick.bind(this);
+    this.pokemonList = this.pokemonList.bind(this);
   }
 
   onPokemonClick(pokemon) {
     this.refs.pokedex.onPokemonClicked(pokemon);
+  }
+
+  pokemonList() {
+    return this.refs.pokedex.state.pokemonList
   }
 
   render() {
@@ -27,7 +31,8 @@ export default class App extends React.Component {
             <Pokedex ref="pokedex" />
           </div>
           <div className={styles.map}>
-            <Map onPokemonClick={this.onPokemonClick} />
+            <Map onPokemonClick={this.onPokemonClick}
+                 pokemonList={this.pokemonList}/>
           </div>
         </div>
       </div>
