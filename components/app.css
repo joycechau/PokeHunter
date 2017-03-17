@@ -13,13 +13,9 @@
 
 .content {
   display: flex;
-  height: 100vh;
-  padding-top: 75px;
 }
 
 .pokedex {
-  width: 325px;
-  overflow-y: scroll;
   border-right: 2px solid black;
 }
 
@@ -28,4 +24,7 @@
   flex: 1;
   background-image: url("https://res.cloudinary.com/joycechau/image/upload/e_grayscale/v1489659665/pokehunter_background.jpg");
   background-size: cover;
+  margin-left: 325px;
+  height: 100vh;
+  padding-top: 75px;
 }
