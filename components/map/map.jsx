@@ -21,6 +21,7 @@ const MIN_LAT = -85;
 const MAX_LNG = 180;
 const MIN_LNG = -180;
 const TOTAL_POKEBALLS = 750;
+const MILLISECONDS = 800;
 
 export default class Map extends React.Component {
   constructor(props) {
@@ -154,21 +155,21 @@ export default class Map extends React.Component {
     });
 
     setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
-    setInterval(() => this.updatePokemonPosition(pokemonMarker, map), 800);
+    setInterval(() => this.updatePokemonPosition(pokemonMarker, map), MILLISECONDS);
 
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(this.runawayButton(map, pokemonMarker));
     map.controls[google.maps.ControlPosition.TOP_LEFT].push(this.pokemonMessage(map, pokemonMarker));
   }
 
   updatePokemonPosition(pokemonMarker, map) {
-    const latDiff = 0.18;
-    const lngDiff = 0.40;
-    const maxLat = map.getCenter().lat() + latDiff;
-    const minLat = map.getCenter().lat() - latDiff;
-    const maxLng = map.getCenter().lng() + lngDiff;
-    const minLng = map.getCenter().lng() - lngDiff;
-    const newLat = Math.random() * (maxLat - minLat) + minLat;
-    const newLng = Math.random() * (maxLng - minLng) + minLng;
+    const latOffset = 0.05;
+    const lngOffset = 0.1;
+    const minLatBounds = map.getBounds().f.f + latOffset;
+    const maxLatBounds = map.getBounds().f.b - latOffset;
+    const minLngBounds = map.getBounds().b.b + lngOffset;
+    const maxLngBounds = map.getBounds().b.f - lngOffset;
+    const newLat = Math.random() * (maxLatBounds - minLatBounds) + minLatBounds;
+    const newLng = Math.random() * (maxLngBounds - minLngBounds) + minLngBounds;
     const newPosition = new google.maps.LatLng(newLat, newLng);
     pokemonMarker.setPosition(newPosition);
   }
