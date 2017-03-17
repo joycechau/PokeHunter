@@ -1,6 +1,7 @@
 .header {
   text-align: center;
   color: white;
+  margin-top: 7px;
 }
 
 .stage {
@@ -31,6 +32,14 @@
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
+}
+
+.return {
+  width: 22px;
+  height: 22px;
+  border: none;
+  outline:none;
+  cursor: pointer;
 }
 
 @-webkit-keyframes spinner {

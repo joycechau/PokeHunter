@@ -14,7 +14,7 @@ export const style = {
     left            : '50%',
     transform       : 'translate(-50%, -50%)',
     border          : '2px solid black',
-    padding         : '30px',
+    padding         : '15px',
     zIndex          : 11,
     width           : '425px',
     height          : '425px',

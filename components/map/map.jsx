@@ -243,7 +243,8 @@ export default class Map extends React.Component {
           onRequestClose={this.closeModal}
           contentLabel="Modal"
           style={style}>
-          <Pokemon pokemon={this.state.pokemon}/>
+          <Pokemon pokemon={this.state.pokemon}
+                   closeModal={this.closeModal}/>
         </Modal>
       </div>
     );
