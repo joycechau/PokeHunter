@@ -14158,7 +14158,7 @@ var Map = function (_React$Component) {
       });
 
       var infoWindow = new google.maps.InfoWindow({
-        content: "<div style='width: 115px; font-size: 12px; margin-top: 2px; line-height: 15px'>" + "Click on pokeballs to search for pokemon!" + "</div>"
+        content: "<div style='width: 115px; font-size: 12px; margin-top: 2px; line-height: 16px; overflow: hidden;'>" + "Click on pokeballs to search for pokemon!" + "</div>"
       });
 
       this.infoMarker = infoMarker;
