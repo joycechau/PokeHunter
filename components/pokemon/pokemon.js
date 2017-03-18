@@ -16,7 +16,7 @@ export const style = {
     border          : '2px solid black',
     padding         : '15px',
     zIndex          : 11,
-    width           : '425px',
+    width           : '400px',
     height          : '425px',
     backgroundColor : 'firebrick'
   }

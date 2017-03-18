@@ -4,12 +4,12 @@
 }
 
 .title {
-  font-size: 25px;
-  padding: 28px;
-  animation: type 4s steps(60, end);
-  -webkit-animation: type 4s steps(60, end);
-  -ms-animation: type 4s steps(60, end);
-  -moz-animation: type 4s steps(60, end);
+  font-size: 35px;
+  padding: 12px;
+  animation: type 8s steps(120, end);
+  -webkit-animation: type 8s steps(120, end);
+  -ms-animation: type 8s steps(120, end);
+  -moz-animation: type 8s steps(120, end);
   white-space: nowrap;
   overflow: hidden;
   width: 30em;

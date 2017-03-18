@@ -10,6 +10,7 @@ export default class App extends React.Component {
     super(props);
     this.onPokemonClick = this.onPokemonClick.bind(this);
     this.pokemonList = this.pokemonList.bind(this);
+    this.numCaughtPokemon = this.numCaughtPokemon.bind(this);
   }
 
   onPokemonClick(pokemon) {
@@ -17,7 +18,11 @@ export default class App extends React.Component {
   }
 
   pokemonList() {
-    return this.refs.pokedex.state.pokemonList
+    return this.refs.pokedex.state.pokemonList;
+  }
+
+  numCaughtPokemon() {
+    return this.refs.pokedex.state.numCaughtPokemon;
   }
 
   render() {
@@ -32,7 +37,8 @@ export default class App extends React.Component {
           </div>
           <div className={styles.map}>
             <Map onPokemonClick={this.onPokemonClick}
-                 pokemonList={this.pokemonList}/>
+                 pokemonList={this.pokemonList}
+                 numCaughtPokemon={this.numCaughtPokemon}/>
           </div>
         </div>
       </div>

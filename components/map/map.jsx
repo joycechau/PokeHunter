@@ -28,6 +28,8 @@ export default class Map extends React.Component {
     super(props);
     this.state = { pokemon: null, modalOpen: false };
     this.map = null;
+    this.infoMarker = null;
+    this.infoWindow = null;
     this.pokeballs = [];
     this.openModal = this.openModal.bind(this);
     this.closeModal = this.closeModal.bind(this);
@@ -67,10 +69,14 @@ export default class Map extends React.Component {
     });
 
     const infoWindow = new google.maps.InfoWindow({
-      content: "<div style='width: 212px; font-size: 10px; margin-top: 5px;'>" +
+      content: "<div style='width: 115px; font-size: 12px; margin-top: 2px; line-height: 15px'>" +
                  "Click on pokeballs to search for pokemon!" +
                "</div>"
     });
+
+    this.infoMarker = infoMarker;
+    this.infoWindow = infoWindow;
+    this.pokeballs.push(infoMarker);
 
     infoWindow.open(map, infoMarker);
 
@@ -109,6 +115,7 @@ export default class Map extends React.Component {
 
     pokeballMarker.addListener('click', () => {
       pokeballMarker.setMap(null);
+      this.infoWindow.close();
       this.pokeballs.splice(this.pokeballs.indexOf(pokeballMarker), 1);
       this.addPokeballMarker(map);
       this.pokeballs.forEach((pokeball) => pokeball.setMap(null));
@@ -129,7 +136,14 @@ export default class Map extends React.Component {
       scrollwheel: false
     }));
 
-    const randomPokemon = POKEMON_LIST[Math.floor(Math.random() * POKEMON_LIST.length)];
+    const isNewPokemon = Math.random() > 0.60;
+    let currentPokemon = Math.floor(Math.random() * this.props.pokemonList().length);
+    let randomPokemon = this.props.pokemonList()[currentPokemon];
+    while (isNewPokemon && randomPokemon.found && this.props.numCaughtPokemon() < 150) {
+      currentPokemon = (currentPokemon + 1) % this.props.pokemonList().length;
+      randomPokemon = this.props.pokemonList()[currentPokemon];
+    }
+
     const icon = {
       url: randomPokemon.marker_url,
     };
@@ -154,7 +168,7 @@ export default class Map extends React.Component {
       }
     });
 
-    setTimeout(() => this.updatePokemonPosition(pokemonMarker, map), 1);
+    this.updatePokemonPosition(pokemonMarker, map);
     setInterval(() => this.updatePokemonPosition(pokemonMarker, map), MILLISECONDS);
 
     map.controls[google.maps.ControlPosition.TOP_RIGHT].push(this.runawayButton(map, pokemonMarker));
@@ -162,12 +176,13 @@ export default class Map extends React.Component {
   }
 
   updatePokemonPosition(pokemonMarker, map) {
+    const bounds = map.getBounds();
     const latOffset = 0.05;
     const lngOffset = 0.1;
-    const minLatBounds = map.getBounds().f.f + latOffset;
-    const maxLatBounds = map.getBounds().f.b - latOffset;
-    const minLngBounds = map.getBounds().b.b + lngOffset;
-    const maxLngBounds = map.getBounds().b.f - lngOffset;
+    const minLatBounds = bounds.f.f + latOffset;
+    const maxLatBounds = bounds.f.b - latOffset;
+    const minLngBounds = bounds.b.b + lngOffset;
+    const maxLngBounds = bounds.b.f - lngOffset;
     const newLat = Math.random() * (maxLatBounds - minLatBounds) + minLatBounds;
     const newLng = Math.random() * (maxLngBounds - minLngBounds) + minLngBounds;
     const newPosition = new google.maps.LatLng(newLat, newLng);
@@ -179,9 +194,10 @@ export default class Map extends React.Component {
       `<div id="pokemon-message"
             style="margin-left: 10px;
                   margin-top: 10px;
-                  padding: 10px;
-                  padding-bottom: 7px;
-                  background-color: white;">
+                  padding: 14px 10px;
+                  background-color: white;
+                  font-size: 14px;
+                  line-height: 0px">
         A wild ${this.state.pokemon.name} appeared! Click to catch it!
       </div>`
     );
