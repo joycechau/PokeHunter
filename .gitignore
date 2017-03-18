@@ -1,7 +1,1 @@
 node_modules/
-.DS_Store
-npm-debug.log
-bundle.js
-bundle.js.map
-bundle.css
-bundle.css.map

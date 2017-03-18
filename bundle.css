@@ -1,0 +1,190 @@
+.header__header___3b7Ca {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title___2NyXZ {
+  font-size: 35px;
+  padding: 12px;
+  animation: header__type___1eUjI 8s steps(120, end);
+  -webkit-animation: header__type___1eUjI 8s steps(120, end);
+  -ms-animation: header__type___1eUjI 8s steps(120, end);
+  -moz-animation: header__type___1eUjI 8s steps(120, end);
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+}
+
+@keyframes header__type-___3Ihxd {
+  from { width: 0; }
+}
+
+@-webkit-keyframes header__type___1eUjI {
+  from { width: 0; }
+}
+
+@-ms-keyframes header__type___1eUjI {
+  from { width: 0; }
+}
+
+@-moz-keyframes header__type___1eUjI {
+  from { width: 0; }
+}
+
+
+.header__img___CcFbZ {
+  height: 40px;
+  width: 40px;
+  margin: 16px;
+  margin-left: 0px;
+}
+.pokedex__pokedex___2eceh {
+  height: 100vh;
+  width: 275px;
+  overflow: hidden;
+  position: fixed;
+  top: 75px;
+  border-right: 2px solid black;
+}
+
+.pokedex__title___2caOL {
+  height: 50px;
+  padding: 8px 8px 8px 15px;
+  border-bottom: 1px solid #777;
+  background: #555;
+  color: white;
+  font-size: 20px;
+}
+
+.pokedex__list___3FNNn {
+  width: 275px;
+  height: calc(100% - 125px);
+  overflow-y: scroll;
+}
+
+.pokedex__item___3ekHu {
+  line-height: 30px;
+  padding: 8px 8px 8px 15px;
+  border-bottom: 1px solid #777;
+  background: #555;
+  color: white;
+  font-size: 18px;
+}
+
+.pokedex__img___wBIAa {
+  vertical-align: middle;
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+}
+.map__map___3BM87 {
+  width: 700px;
+  overflow: hidden;
+  height: 500px;
+  margin: auto;
+  border: 3px solid #555;
+  border-radius: 5px;
+  box-shadow: 4px 4px 1px #555;
+}
+
+.map__infoWindow___E62-v {
+  width: 212px;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.pokemon__header___mX-Yi {
+  text-align: center;
+  color: white;
+  margin-top: 7px;
+  line-height: 10px;
+  font-size: 25px;
+}
+
+.pokemon__stage___1e0Y0 {
+  margin: 1em auto;
+  -webkit-perspective: 1024px;
+  -moz-perspective: 1024px;
+  -ms-perspective: 1024px;
+  perspective: 1024px;
+}
+
+.pokemon__img___1bMUh {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  -webkit-animation-name: pokemon__spinner___2bPKy;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 7s;
+
+  animation-name: pokemon__spinner___2bPKy;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 7s;
+
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.pokemon__return___C48WN {
+  width: 22px;
+  height: 22px;
+  border: none;
+  outline:none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes pokemon__spinner___2bPKy {
+  from { -webkit-transform: rotateY(0deg);    }
+  to   { -webkit-transform: rotateY(-360deg); }
+}
+
+/* all other browsers */
+@keyframes pokemon__spinner___2bPKy {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}
+.app__app___f6Jcy {
+  min-width: 1024px;
+}
+
+.app__header____sELH {
+  height: 75px;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  background-color: firebrick;
+  border-bottom: 2px solid black;
+}
+
+.app__content___3n_ce {
+  display: flex;
+}
+
+.app__pokedex___2iPzf {
+  border-right: 2px solid black;
+}
+
+.app__map___BXcQB {
+  display: flex;
+  flex: 1;
+  background-image: url("https://res.cloudinary.com/joycechau/image/upload/e_grayscale/v1489659665/pokehunter_background.jpg");
+  background-size: cover;
+  margin-left: 275px;
+  height: 100vh;
+  padding-top: 75px;
+}
+
+/*# sourceMappingURL=bundle.css.map*/
