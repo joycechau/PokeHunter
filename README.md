@@ -1,6 +1,6 @@
 # PokeHunter
 
-[PokeHunter](https://joycechau.github.io/PokeHunter/) is a web application inspired by the popular Pokemon Go app.  The objective is to explore the world and catch all 150 Pokemon.  A special message will appear after catching all the Pokemon.  :smiley:
+[PokeHunter](http://joycechau.me/PokeHunter/) is a web application inspired by the popular Pokemon Go app.  The objective is to explore the world and catch all 150 Pokemon.  A special message will appear after catching all the Pokemon.  :smiley:
 
 PokeHunter was built by [Joyce Chau](https://github.com/joycechau) and
 [Kenneth Truong](https://github.com/kennethtruong).
