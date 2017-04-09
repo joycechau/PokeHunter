@@ -20,7 +20,7 @@ const MAX_LAT = 85;
 const MIN_LAT = -85;
 const MAX_LNG = 180;
 const MIN_LNG = -180;
-const TOTAL_POKEBALLS = 750;
+const TOTAL_POKEBALLS = 749;
 const MILLISECONDS = 800;
 
 export default class Map extends React.Component {
