@@ -69,7 +69,7 @@ export default class Map extends React.Component {
     });
 
     const infoWindow = new google.maps.InfoWindow({
-      content: "<div style='width: 115px; font-size: 12px; margin-top: 2px; line-height: 16px; overflow: hidden;'>" +
+      content: "<div style='width: 117px; font-size: 12px; margin-top: 2px; line-height: 16px; overflow: hidden;'>" +
                  "Click on poke&#769;balls to search for poke&#769;mon!" +
                "</div>"
     });
