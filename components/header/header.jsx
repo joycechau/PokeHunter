@@ -10,7 +10,7 @@ export default class Header extends React.Component {
   render() {
     return (
       <div className={styles.header}>
-        <p className={styles.title}>Catch All The Pokemon!</p>
+        <p className={styles.title}>Catch All The Poke&#769;mon!</p>
         <div>
           <a
             href="https://www.linkedin.com/in/joycechau/"

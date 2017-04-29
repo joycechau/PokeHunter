@@ -14013,7 +14013,7 @@ var Header = function (_React$Component) {
         _react2.default.createElement(
           'p',
           { className: _header2.default.title },
-          'Catch All The Pokemon!'
+          'Catch All The Poke\u0301mon!'
         ),
         _react2.default.createElement(
           'div',
@@ -14158,7 +14158,7 @@ var Map = function (_React$Component) {
       });
 
       var infoWindow = new google.maps.InfoWindow({
-        content: "<div style='width: 115px; font-size: 12px; margin-top: 2px; line-height: 16px; overflow: hidden;'>" + "Click on pokeballs to search for pokemon!" + "</div>"
+        content: "<div style='width: 115px; font-size: 12px; margin-top: 2px; line-height: 16px; overflow: hidden;'>" + "Click on poke&#769;balls to search for poke&#769;mon!" + "</div>"
       });
 
       this.infoMarker = infoMarker;
