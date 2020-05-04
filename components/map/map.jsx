@@ -179,10 +179,10 @@ export default class Map extends React.Component {
     const bounds = map.getBounds();
     const latOffset = 0.05;
     const lngOffset = 0.1;
-    const minLatBounds = bounds.na.j + latOffset;
-    const maxLatBounds = bounds.na.l - latOffset;
-    const minLngBounds = bounds.ia.j + lngOffset;
-    const maxLngBounds = bounds.ia.l - lngOffset;
+    const minLatBounds = bounds.Ya.i + latOffset;
+    const maxLatBounds = bounds.Ya.j - latOffset;
+    const minLngBounds = bounds.Ua.i + lngOffset;
+    const maxLngBounds = bounds.Ua.j - lngOffset;
     const newLat = Math.random() * (maxLatBounds - minLatBounds) + minLatBounds;
     const newLng = Math.random() * (maxLngBounds - minLngBounds) + minLngBounds;
     const newPosition = new google.maps.LatLng(newLat, newLng);
